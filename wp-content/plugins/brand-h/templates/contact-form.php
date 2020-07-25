@@ -1,3 +1,4 @@
+<a href="/wp-admin/edit.php?post_type=testimonial"> Goto Result through Admin page</a>
 <form id="alecaddd-testimonial-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
 
 	<div class="field-container">
