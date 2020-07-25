@@ -1,12 +1,13 @@
 <?php
+ //get_header(); 
  ?>
 <Header>
-<h1>
-<a href="/inform">Test Inform</a></h1>
+<h1 style="margin-top:50px">
+<a href="/inform" >Test Inform</a></h1>
 </Hedaer>
 
 
-<h1 style="margin-top:10px">Page is Home</h1>
+<h1 >Page is Home</h1>
 
 <p>Flushed Homepage as Blank</p>
 
@@ -14,4 +15,4 @@
 Powered by Techroad
 </Fotter>
 <?php
-?>
+get_footer();?>
