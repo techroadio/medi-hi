@@ -1,6 +1,6 @@
 <?php
 /**
- * @package  AlecadddPlugin
+ * @package  brandhPlugin
  */
 namespace Inc\Base;
 
@@ -34,11 +34,11 @@ class ChatController extends BaseController
 	{
 		$this->subpages = array(
 			array(
-				'parent_slug' => 'alecaddd_plugin', 
+				'parent_slug' => 'brandh_plugin',
 				'page_title' => 'Chat Manager', 
 				'menu_title' => 'Chat Manager', 
 				'capability' => 'manage_options', 
-				'menu_slug' => 'alecaddd_chat', 
+				'menu_slug' => 'brandh_chat',
 				'callback' => array( $this->callbacks, 'adminChat' )
 			)
 		);

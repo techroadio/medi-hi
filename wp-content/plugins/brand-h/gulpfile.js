@@ -88,8 +88,8 @@ function browser_sync() {
 	// browserSync.init({
 	// 	proxy: projectURL,
 	// 	https: {
-	// 		key: '/home/alecaddd/.valet/Certificates/wp.dev.key',
-	// 		cert: '/home/alecaddd/.valet/Certificates/wp.dev.crt'
+	// 		key: '/home/brandh/.valet/Certificates/wp.dev.key',
+	// 		cert: '/home/brandh/.valet/Certificates/wp.dev.crt'
 	// 	},
 	// 	injectChanges: true,
 	// 	open: false

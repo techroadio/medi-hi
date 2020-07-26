@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(e) {
-	let testimonialForm = document.getElementById('alecaddd-testimonial-form');
+	let testimonialForm = document.getElementById('brandh-form-form');
 
 	testimonialForm.addEventListener('submit', (e) => {
 		e.preventDefault();
@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function(e) {
 		let data = {
 			name: testimonialForm.querySelector('[name="name"]').value,
 			email: testimonialForm.querySelector('[name="email"]').value,
-			
+			phone: testimonialForm.querySelector('[name="phone"]').value,
+			care: testimonialForm.querySelector('[name="care"]').value,
 			message: testimonialForm.querySelector('[name="message"]').value,
 			nonce: testimonialForm.querySelector('[name="nonce"]').value
 		} 
@@ -29,6 +30,16 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 		if (!data.message) {
 			testimonialForm.querySelector('[data-error="invalidMessage"]').classList.add('show');
+			return;
+		}
+
+		if (!data.phone) {
+			testimonialForm.querySelector('[data-error="invalidPhone"]').classList.add('show');
+			return;
+		}
+
+		if (!data.care) {
+			testimonialForm.querySelector('[data-error="invalidCare"]').classList.add('show');
 			return;
 		}
 

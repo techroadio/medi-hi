@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package  AlecadddPlugin
+ * @package  brandhPlugin
  */
 namespace Inc\Api\Callbacks;
 
@@ -12,7 +12,7 @@ class TaxonomyCallbacks
 
 	public function taxSanitize( $input )
 	{
-		$output = get_option('alecaddd_plugin_tax');
+		$output = get_option('brandh_plugin_tax');
 
 		if ( isset($_POST["remove"]) ) {
 			unset($output[$_POST["remove"]]);

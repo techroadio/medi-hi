@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package  AlecadddPlugin
+ * @package  brandhPlugin
  */
 namespace Inc\Base;
 
@@ -34,11 +34,11 @@ class MembershipController extends BaseController
 	{
 		$this->subpages = array(
 			array(
-				'parent_slug' => 'alecaddd_plugin', 
+				'parent_slug' => 'brandh_plugin',
 				'page_title' => 'Membership Manager', 
 				'menu_title' => 'Membership Manager', 
 				'capability' => 'manage_options', 
-				'menu_slug' => 'alecaddd_membership', 
+				'menu_slug' => 'brandh_membership',
 				'callback' => array( $this->callbacks, 'adminMembership' )
 			)
 		);

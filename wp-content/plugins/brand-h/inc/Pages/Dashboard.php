@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package  AlecadddPlugin
+ * @package  brandhPlugin
  */
 namespace Inc\Pages;
 
@@ -55,8 +55,8 @@ class Dashboard extends BaseController
 	{
 		$args = array(
 			array(
-				'option_group' => 'alecaddd_plugin_settings',
-				'option_name' => 'alecaddd_plugin',
+				'option_group' => 'brandh_plugin_settings',
+				'option_name' => 'brandh_plugin',
 				'callback' => array( $this->callbacks_mngr, 'checkboxSanitize' )
 			)
 		);
@@ -68,10 +68,10 @@ class Dashboard extends BaseController
 	{
 		$args = array(
 			array(
-				'id' => 'alecaddd_admin_index',
+				'id' => 'brandh_admin_index',
 				'title' => 'Settings Manager',
 				'callback' => array( $this->callbacks_mngr, 'adminSectionManager' ),
-				'page' => 'alecaddd_plugin'
+				'page' => 'brandh_plugin'
 			)
 		);
 
@@ -87,10 +87,10 @@ class Dashboard extends BaseController
 				'id' => $key,
 				'title' => $value,
 				'callback' => array( $this->callbacks_mngr, 'checkboxField' ),
-				'page' => 'alecaddd_plugin',
-				'section' => 'alecaddd_admin_index',
+				'page' => 'brandh_plugin',
+				'section' => 'brandh_admin_index',
 				'args' => array(
-					'option_name' => 'alecaddd_plugin',
+					'option_name' => 'brandh_plugin',
 					'label_for' => $key,
 					'class' => 'ui-toggle'
 				)
