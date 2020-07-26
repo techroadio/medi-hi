@@ -11,9 +11,6 @@
 
 <p>Flushed Homepage as Blank</p>
 
-<h1>Test Multilanguages</h1>
-<a href="/privacy-policy/" >privacy</a></h1>
-
 <Footer>
 Powered by Techroad
 </Fotter>
