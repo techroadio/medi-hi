@@ -180,6 +180,14 @@ class TestimonialController extends BaseController
 			<label class="meta-label" for="brandh_form_email">Author Email</label>
 			<input type="email" id="brandh_form_email" name="brandh_form_email" class="widefat" value="<?php echo esc_attr( $email ); ?>">
 		</p>
+        <p>
+            <label class="meta-label" for="brandh_form_phone">Author Phone</label>
+            <input type="text" id="brandh_form_phone" name="brandh_form_phone" class="widefat" value="<?php echo esc_attr( $phone ); ?>">
+        </p>
+        <p>
+            <label class="meta-label" for="brandh_form_care">Author Care</label>
+            <input type="text" id="brandh_form_care" name="brandh_form_care" class="widefat" value="<?php echo esc_attr( $care ); ?>">
+        </p>
 		
 		<div class="meta-container">
 			<label class="meta-label w-50 text-left" for="brandh_form_approved">Is Contaced</label>
@@ -222,7 +230,8 @@ class TestimonialController extends BaseController
 		$data = array(
 			'name' => sanitize_text_field( $_POST['brandh_form_author'] ),
 			'email' => sanitize_email( $_POST['brandh_form_email'] ),
-			
+            'phone' => sanitize_text_field( $_POST['brandh_form_phone'] ),
+            'care' => sanitize_text_field( $_POST['brandh_form_care'] ),
 			'approved' => isset($_POST['brandh_form_approved']) ? 1 : 0,
 			'featured' => isset($_POST['brandh_form_featured']) ? 1 : 0,
 		);
