@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package  AlecadddPlugin
+ * @package  brandhPlugin
  */
 namespace Inc\Api\Callbacks;
 
@@ -14,7 +14,7 @@ class CptCallbacks
 
 	public function cptSanitize( $input )
 	{
-		$output = get_option('alecaddd_plugin_cpt');
+		$output = get_option('brandh_plugin_cpt');
 
 		if ( isset($_POST["remove"]) ) {
 			unset($output[$_POST["remove"]]);

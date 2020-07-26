@@ -1,11 +1,11 @@
 {
-    "name": "alecaddd/alecaddd-plugin",
+    "name": "brandh/brandh-plugin",
     "description": "Awesome starter plugin example",
     "type": "project",
     "license": "GPL-3.0",
     "authors": [
         {
-            "name": "Alecaddd",
+            "name": "brandh",
             "email": "castellani.ale@gmail.com"
         }
     ],

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function (e) {
-    const showAuthBtn = document.getElementById('alecaddd-show-auth-form'),
-        authContainer = document.getElementById('alecaddd-auth-container'),
-        close = document.getElementById('alecaddd-auth-close');
+    const showAuthBtn = document.getElementById('brandh-show-auth-form'),
+        authContainer = document.getElementById('brandh-auth-container'),
+        close = document.getElementById('brandh-auth-close');
     
     showAuthBtn.addEventListener('click', () => {
         authContainer.classList.add('show');        

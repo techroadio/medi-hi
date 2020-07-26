@@ -1,11 +1,11 @@
 {
-	"name": "alecaddd-plugin",
+	"name": "brandh-plugin",
 	"version": "1.0.0",
 	"description": "Awesome starter plugin example",
-	"author": "Alessandro Castellani <me@alecaddd.com> (http://alecaddd.com)",
+	"author": "Alessandro Castellani <me@brandh.com> (http://brandh.com)",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Alecaddd/WordPressPlugin101"
+		"url": "https://github.com/brandh/WordPressPlugin101"
 	},
 	"keywords": [
 		"wordpress",

@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package  AlecadddPlugin
+ * @package  brandhPlugin
  */
 namespace Inc\Base;
 
@@ -34,11 +34,11 @@ class GalleryController extends BaseController
 	{
 		$this->subpages = array(
 			array(
-				'parent_slug' => 'alecaddd_plugin', 
+				'parent_slug' => 'brandh_plugin',
 				'page_title' => 'Gallery Manager', 
 				'menu_title' => 'Gallery Manager', 
 				'capability' => 'manage_options', 
-				'menu_slug' => 'alecaddd_gallery', 
+				'menu_slug' => 'brandh_gallery',
 				'callback' => array( $this->callbacks, 'adminGallery' )
 			)
 		);
