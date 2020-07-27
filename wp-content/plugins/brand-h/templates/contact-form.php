@@ -1,4 +1,4 @@
-<a href="/wp-admin/edit.php?post_type=testimonial"> Goto Result through Admin page</a>
+<a href="/wp-admin/edit.php?post_type=testimonial"><?php _e('Goto Result through Admin page','brand-h-form'); ?> </a>
 <form id="brandh-form-form" action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
 
 	<div class="field-container">

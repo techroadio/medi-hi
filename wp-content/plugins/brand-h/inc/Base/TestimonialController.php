@@ -34,7 +34,7 @@ class TestimonialController extends BaseController
 
 		$this->setShortcodePage();
 
-		add_shortcode( 'testimonial-form', array( $this, 'testimonial_form' ) );
+		add_shortcode( 'brand-h-form', array( $this, 'testimonial_form' ) );
 		add_shortcode( 'testimonial-slideshow', array( $this, 'testimonial_slideshow' ) );
 		add_action( 'wp_ajax_submit_testimonial', array( $this, 'submit_testimonial' ) );
 		add_action( 'wp_ajax_nopriv_submit_testimonial', array( $this, 'submit_testimonial' ) );
@@ -67,7 +67,7 @@ class TestimonialController extends BaseController
 			'post_content' => $message,
 			'post_author' => 1,
 			'post_status' => 'publish',
-			'post_type' => 'testimonial',
+			'post_type' => 'form',
 			'meta_input' => array(
 				'_brandh_form_key' => $data
 			)

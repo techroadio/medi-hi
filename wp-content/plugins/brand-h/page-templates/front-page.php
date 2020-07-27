@@ -3,16 +3,16 @@
  ?>
 <Header>
 <h1 style="margin-top:50px">
-<a href="/inform" >Test Inform</a></h1>
+<a href="/inform" ><?php _e('Test Inform','brand-h-domain'); ?></a></h1>
 </Hedaer>
 
 
-<h1 >Page is Home</h1>
+<h1 ><?php _e('Page is Home','brand-h-domain'); ?></h1>
 
-<p>Flushed Homepage as Blank</p>
+<p><?php _e('Flushed Homepage as Blank','brand-h-domain'); ?></p>
 
 <Footer>
-Powered by Techroad
+<?php _e('Powered by Techroad','brand-h-domain'); ?>
 </Fotter>
 <?php
 get_footer();?>

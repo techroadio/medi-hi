@@ -1,12 +1,12 @@
 {
     "name": "brandh/brandh-plugin",
-    "description": "Awesome starter plugin example",
+    "description": "This plugin is for brand-h",
     "type": "project",
     "license": "GPL-3.0",
     "authors": [
         {
             "name": "brandh",
-            "email": "castellani.ale@gmail.com"
+            "email": "lion.cho@techroad.io"
         }
     ],
     "minimum-stability": "dev",
