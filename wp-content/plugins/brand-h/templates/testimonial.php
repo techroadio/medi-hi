@@ -6,4 +6,4 @@
 
     <p>Brand-H SlideShow Shortcode</p>
     <p><code>[brand-h-slideshow]</code></p>
-</div>
+</div> 
