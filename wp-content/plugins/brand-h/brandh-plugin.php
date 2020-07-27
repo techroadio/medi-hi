@@ -5,7 +5,7 @@
 /*
 Plugin Name: Brand H Plugin
 Plugin URI: https://medi.techroad.io/plugin
-Description: This is my first attempt on writing a custom Plugin for this amazing tutorial series.
+Description: This is plugin for Brand H.
 Version: 1.0.0
 Author: Techroad
 Author URI: https://techroad.io
