@@ -2,5 +2,9 @@
 
 # This is medi hi repo
 
-# wp-config.php and connection database, use your machine.
-here no have information. must be empty in wp-config.php
+## wp-config.php doesn't have in repository
+use your wp-config.php and connection database by your machine.
+
+## Server File Location
+bitnami@ip-172-26-1-184:/opt/bitnami/apps/wordpress/htdocs$ 
+
