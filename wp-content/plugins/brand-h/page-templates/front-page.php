@@ -1,5 +1,5 @@
 <?php
- //get_header(); 
+ get_header(); 
  ?>
 <Header>
 <h1 style="margin-top:50px">

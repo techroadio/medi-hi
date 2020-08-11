@@ -18,7 +18,12 @@ class TemplateController extends BaseController
 		if ( ! $this->activated( 'templates_manager' ) ) return;
 
 		$this->templates = array(
-			'page-templates/two-columns-tpl.php' => 'Two Columns Layout'
+			'page-templates/front-page-dark.php' => 'Front Dark',
+			'page-templates/two-columns-tpl.php' => 'Two Columns Layout',
+			'page-templates/sub1.php' => 'sub1',
+			'page-templates/sub2.php' => 'sub2',
+			'page-templates/sub3.php' => 'sub3',
+			'page-templates/sub4.php' => 'sub4'
 		);
 
 		add_filter( 'theme_page_templates', array( $this, 'custom_template' ) );
