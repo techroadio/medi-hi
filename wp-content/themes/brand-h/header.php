@@ -34,7 +34,73 @@
 
 <body <?php body_class(); ?>>
 
-	header
+	<div class="sunset-sidebar sidebar-closed">
+		
+		<div class="sunset-sidebar-container">
+		
+			<a class="js-toggleSidebar sidebar-close">
+				<span class="sunset-icon sunset-close"></span>
+				
+			</a>
+		
+			<div class="sidebar-scroll">
+				
+				<?php get_sidebar(); ?>
+				
+			</div><!-- .sidebar-scroll -->
+		
+		</div><!-- .sunset-sidebar-container -->
+		
+	</div><!-- .sunset-sidebar -->
+	
+	<div class="sidebar-overlay js-toggleSidebar"></div>
+	
+	<div class="container-fluid">
+		
+		<div class="row">
+				
+			<header class="header-container background-image text-center" style="background-image: url(<?php header_image(); ?>);">
+				
+				<a class="js-toggleSidebar sidebar-open">
+					<span class="sunset-icon sunset-menu"></span>
+				</a>
+				
+				<div class="header-content table">
+					<div class="table-cell">
+						<h1 class="site-title sunset-icon">
+							<!-- <span class="sunset-logo"></span> -->
+							<img src="<?php echo get_template_directory_uri(); ?>/img/logo-black.png" />
+							<span class="hide"><?php bloginfo( 'name' ); ?></span>
+						</h1>
+						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+					</div><!-- .table-cell -->
+				</div><!-- .header-content -->
+				
+				<div class="nav-container hidden-xs">
+					
+					<nav class="navbar navbar-sunset">
+						<?php
+							wp_nav_menu( array(
+								'theme_location' => 'primary',
+								'container' => false,
+								'menu_class' => 'nav navbar-nav',
+								'walker' => new Sunset_Walker_Nav_Primary()
+							) );	
+						?>
+					</nav>
+					
+				</div><!-- .nav-container -->
+				
+			</header><!-- .header-container -->
+
+		</div><!-- .row -->
+		
+	</div><!-- .container-fluid -->
+	
+	
+	
+	
+	
 	
 	
 	
