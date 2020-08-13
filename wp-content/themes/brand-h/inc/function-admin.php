@@ -17,8 +17,8 @@ function sunset_add_admin_page() {
 	//Generate Sunset Admin Sub Pages
 	add_submenu_page( 'alecaddd_sunset', 'Sunset Sidebar Options', 'Sidebar', 'manage_options', 'alecaddd_sunset', 'sunset_theme_create_page' );
 	add_submenu_page( 'alecaddd_sunset', 'Sunset Theme Options', 'Theme Options', 'manage_options', 'alecaddd_sunset_theme', 'sunset_theme_support_page' );
-	// add_submenu_page( 'alecaddd_sunset', 'Sunset Contact Form', 'Contact Form', 'manage_options', 'alecaddd_sunset_theme_contact', 'sunset_contact_form_page' );
-	// add_submenu_page( 'alecaddd_sunset', 'Sunset CSS Options', 'Custom CSS', 'manage_options', 'alecaddd_sunset_css', 'sunset_theme_settings_page');
+	add_submenu_page( 'alecaddd_sunset', 'Sunset Contact Form', 'Contact Form', 'manage_options', 'alecaddd_sunset_theme_contact', 'sunset_contact_form_page' );
+	add_submenu_page( 'alecaddd_sunset', 'Sunset CSS Options', 'Custom CSS', 'manage_options', 'alecaddd_sunset_css', 'sunset_theme_settings_page');
 	
 }
 add_action( 'admin_menu', 'sunset_add_admin_page' );

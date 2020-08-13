@@ -59,26 +59,27 @@
 		
 		<div class="row">
 				
-			<header class="header-container background-image text-center" style="background-image: url(<?php header_image(); ?>);">
+			<header class="header-container background-image text-center" style="background-image: url(<?php header_image(); ?>);height:100px">
 				
 				<a class="js-toggleSidebar sidebar-open">
 					<span class="sunset-icon sunset-menu"></span>
 				</a>
 				
+				<!-- logo -->
 				<div class="header-content table">
-					<div class="table-cell">
-						<h1 class="site-title sunset-icon">
+					<div class="table-cell" style="vertical-align:top;padding-top:20px">
+						<h1 class="site-title sunset-icon justify-center flex">
 							<!-- <span class="sunset-logo"></span> -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo-black.png" />
+							<img src="<?php echo get_template_directory_uri(); ?>/img/logo-black.png" style="width:120px"/>
 							<span class="hide"><?php bloginfo( 'name' ); ?></span>
 						</h1>
-						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+						<!-- <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
 					</div><!-- .table-cell -->
 				</div><!-- .header-content -->
 				
 				<div class="nav-container hidden-xs">
 					
-					<nav class="navbar navbar-sunset">
+					<!-- <nav class="navbar navbar-sunset">
 						<?php
 							wp_nav_menu( array(
 								'theme_location' => 'primary',
@@ -87,7 +88,7 @@
 								'walker' => new Sunset_Walker_Nav_Primary()
 							) );	
 						?>
-					</nav>
+					</nav> -->
 					
 				</div><!-- .nav-container -->
 				
