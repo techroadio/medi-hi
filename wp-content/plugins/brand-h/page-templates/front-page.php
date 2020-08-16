@@ -1,3 +1,4 @@
+
 <?php /*
 	
 @package sunsettheme
@@ -5,11 +6,16 @@
 */
 
 get_header(); ?>
-	
+	<style>
+		.main-menu{
+			display:none;
+		}
+	</style>	
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="text-center">It is main.</div>
-			
+			<div class="text-center bg-yellow-500 main-menu">Hi Mr Gaurav, I try use tailwind css as inline</div>
+			<div class="text-center bg-yellow-500 main-menu">Hi Mr Gaurav, display</div>
+			<div class="text-center bg-yellow-500" style="background:blue">Hi Mr Gaurav, this is inline </div>
 
 			<?php if( is_paged() ): ?>
 			
