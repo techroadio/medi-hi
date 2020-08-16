@@ -6,6 +6,7 @@
 ### Server File Location
 - bitnami@ip-172-26-1-184:/opt/bitnami/apps/wordpress/htdocs$ 
 
-### dummy database
+### Database
 - /dummy-data-sql/medi.sql 
+- It is dummy fo your local working.
 
