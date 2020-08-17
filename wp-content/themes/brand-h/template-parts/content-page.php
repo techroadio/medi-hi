@@ -45,34 +45,8 @@
 <!-- //////////////////////////// Custom code from here onwards //////////////////////////// -->
 
 <!-- Section 1 (start) -->
-<section class="medi-cover h-auto w-full text-center">
-	<!-- welcome content (start) -->
-	<div class="welcome pt-64">
-		<img class="mx-auto" src="<?php bloginfo('template_directory') ?>/img/main-welcome.png" width="240px" alt="">
-		<p class="text-white text-5xl p-5">Experience the excellence
-			of Korean medical care</p>
-	</div>
-	<!-- welcome content (end) -->
-	<!-- welcome buttons (start) -->
-	<div class="flex">
-		<button class="w-1/2 bg-white text-gray-700 font-bold p-5 rounded m-3">Browse</button>
-		<button class="w-1/2 bg-brand hover:bg-blue-700 text-white font-bold p-5 rounded m-3">Get started</button>
-	</div>
-	<!-- welcome buttons (end) -->
-</section>
-<img src="<?php bloginfo('template_directory') ?>/img/banner_1.jpg" alt="">
-<!-- Section 1 (end) -->
-
-<!-- Section 2 (start) -->
-<section class="text-center">
-	<!-- Content (start) -->
-	<img class="mx-auto mt-20" src="<?php bloginfo('template_directory') ?>/img/main-diseases.png" alt="">
-	<h3>Disease</h3>
-	<h4>Superior level, K-medi</h4>
-	<h5 class="text-gray-500">Cancer, Korean medicine, Orthopedics, Transplantation, IVF and more</h5>
-	<!-- Content (end) -->
-
-	<!-- Slider (start) -->
+<section class="text-center pt-24">
+	<!-- Main slider (start) -->
 	<div class="swiper-container">
 		<!-- Additional required wrapper -->
 		<div class="swiper-wrapper">
@@ -98,46 +72,27 @@
 		<!-- If we need scrollbar -->
 		<div class="swiper-scrollbar"></div>
 	</div>
-	<!-- Slider (end) -->
-</section>
-<!-- Section 2 (end) -->
+	<!-- Main slider (end) -->
 
-<!-- Section 3 (start) -->
-<section class="text-center">
 	<!-- Content (start) -->
-	<img class="mx-auto mt-20" src="<?php bloginfo('template_directory') ?>/img/main-beauty.png" alt="">
-	<h3>Beauty & Wellness</h3>
-	<h4>The best in the world</h4>
-	<h5 class="text-gray-500">Plastic surgery, Anti-aging, Obesity, Health checkup and more</h5>
+	<div class="pt-10">
+		<h3 class="font-bold">
+			Himedi meets doctors of first-class hospitals in Korea on behlf of you
+		</h3>
+		<p class="text-3xl">
+			We lead you to world-best medical staff and medical remedies
+		</p>
+	</div>
 	<!-- Content (end) -->
 
-	<!-- Slider (start) -->
-	<div class="swiper-container">
-		<!-- Additional required wrapper -->
-		<div class="swiper-wrapper">
-			<!-- Slides -->
-			<div class="swiper-slide">
-				<img src="<?php bloginfo('template_directory') ?>/img/main-beauty-1.jpg" width="632px" height="348px" alt="">
-			</div>
-			<div class="swiper-slide">
-				<img src="<?php bloginfo('template_directory') ?>/img/main-beauty-2.jpg" width="632px" height="348px" alt="">
-			</div>
-			<div class="swiper-slide">
-				<img src="<?php bloginfo('template_directory') ?>/img/main-beauty-3.jpg" width="632px" height="348px" alt="">
-			</div>
-			<!-- ... (use in case of pagination) -->
-		</div>
-		<!-- If we need pagination -->
-		<div class="swiper-pagination"></div>
+	<!-- Arrow icon (start) -->
+	<i class="fa fa-long-arrow-down pt-10" style="font-size: 25pt;"></i>
+	<!-- Arrow icon (end) -->
 
-		<!-- If we need scrollbar -->
-		<div class="swiper-scrollbar"></div>
-	</div>
-	<!-- Slider (end) -->
 </section>
-<!-- Section 3 (end) -->
+<!-- Section 1 (end) -->
 
-<!-- Section 4 (start) -->
+<!-- Section 2 (start) -->
 <section class="flex mt-20">
 	<!-- Graph 1(start) -->
 	<div class="w-1/3">
@@ -150,39 +105,16 @@
 	</div>
 	<!-- Graph 1 (end) -->
 
-	<!-- Graph 2 (start) -->
-	<!-- Graph 2 (end) -->
 </section>
-<!-- Section 4 (end) -->
+<!-- Section 2 (end) -->
 
-<!-- Section 5 (start) -->
-<section>
-	<!-- Comment slider (start) -->
-	<!-- Comment slider (end) -->
-</section>
-<!-- Section 5 (end) -->
+<!-- Arrow icon (start) -->
+<div class="text-center mt-20 mb-20">
+	<i class="fa fa-long-arrow-down pt-10" style="font-size: 25pt;"></i>
+</div>
+<!-- Arrow icon (end) -->
 
-<!-- Section 6 (start) -->
-<section>
-	<!-- Content (start) -->
-	<!-- Content (end) -->
-
-	<!-- Video (start) -->
-	<!-- Video (end) -->
-</section>
-<!-- Section 6 (end) -->
-
-<!-- Section 7 (start) -->
-<section>
-	<!-- Content (start) -->
-	<!-- Content (end) -->
-
-	<!-- Slider (start) -->
-	<!-- Slider (end) -->
-</section>
-<!-- Section 7 (end) -->
-
-<!-- Section 8 (start) -->
+<!-- Section 3 (start) -->
 <section class="text-center">
 	<!-- Content (start) -->
 	<div class="endCont text-center text-white">
@@ -197,7 +129,7 @@
 	</div>
 	<!-- Hosp Avail (end) -->
 
-	<!-- Ad (start) -->
+	<!-- Sponsor (start) -->
 	<div class="inline-flex">
 		<div class="">
 			<img class="inline" src="<?php bloginfo('template_directory') ?>/img/log1.png" width="90px" height="90px" alt="">
@@ -210,7 +142,7 @@
 			<img class="inline" src="<?php bloginfo('template_directory') ?>/img/log6.png" width="90px" height="90px" alt="">
 		</div>
 	</div>
-	<!-- Ad (end) -->
+	<!-- Sponsor (end) -->
 
 	<!-- Button (start) -->
 	<button class="bg-brand p-10 rounded text-white hover:bg-blue-700 w-1/2 mx-auto mt-10">
@@ -218,8 +150,117 @@
 	</button>
 	<!-- Button (end) -->
 
-	<!-- Main Event (start) -->
-	<img class="mt-10" src="<?php bloginfo('template_directory') ?>/img/main_event.jpg" alt="">
-	<!-- Main Event (end) -->
 </section>
-<!-- Section 8 (end) -->
+<!-- Section 3 (end) -->
+
+<!-- Arrow icon (start) -->
+<div class="text-center mt-20 mb-20">
+	<i class="fa fa-long-arrow-down pt-10" style="font-size: 25pt;"></i>
+</div>
+<!-- Arrow icon (end) -->
+
+<!-- Section 4 (start) -->
+<section class="items-center">
+	<!-- Content (start) -->
+	<h3 class="text-center">
+		Please leave your contact information and inquiry. An answer will be given within 24 hours.
+	</h3>
+	<p class="text-center text-3xl text-blue-500">
+		* If you have an urget inquiry please leave it via WhatsApp.
+	</p>
+	<!-- Content (end) -->
+
+	<!-- Form (start) -->
+	<form class="w-full mt-20">
+		<div class="flex items-center mb-6">
+			<div class="w-1/3">
+				<label class="block text-gray-500 font-bold mb-1 mb-0 pr-4" for="inline-full-name">
+					Full Name
+				</label>
+			</div>
+			<div class="w-2/3">
+				<input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" id="inline-full-name" type="text" placeholder="Jane Doe" required>
+			</div>
+		</div>
+		<div class="flex items-center mb-6">
+			<div class="w-1/3">
+				<label class="block text-gray-500 font-bold mb-1 mb-0 pr-4" for="inline-number">
+					Phone
+				</label>
+			</div>
+			<div class="w-2/3">
+				<input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" id="inline-number" type="number" placeholder="Your phone number" min="1" max="999">
+			</div>
+		</div>
+		<div class="flex items-center mb-6">
+			<div class="w-1/3">
+				<label class="block text-gray-500 font-bold mb-1 mb-0 pr-4" for="inline-email">
+					Email
+				</label>
+			</div>
+			<div class="w-2/3">
+				<input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" id="inline-email" type="email" placeholder="Your email address" required>
+			</div>
+		</div>
+		<div class="flex items-center mb-6">
+			<div class="w-1/3">
+				<label class="block text-gray-500 font-bold mb-1 mb-0 pr-4" for="inline-disease">
+					Disease
+				</label>
+			</div>
+			<div class="w-2/3">
+				<input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 focus:outline-none focus:bg-white focus:border-blue-500" id="inline-disease" type="text" placeholder="Write disease here">
+			</div>
+		</div>
+		<div class="flex items-center mb-6">
+			<div class="w-1/3">
+				<label class="block text-gray-500 font-bold mb-1 mb-0 pr-4">
+					Medical Report:
+				</label>
+			</div>
+			<div class="w-2/3">
+				<label class=" block text-gray-500 font-bold">
+					<input class="mr-2" name="mediReport" type="radio" required>
+					<span class="text-sm">
+						Applicable
+					</span>
+				</label>
+				<label class=" block text-gray-500 font-bold">
+					<input class="mr-2" name="mediReport" type="radio">
+					<span class="text-sm">
+						Not Applicable
+					</span>
+				</label>
+			</div>
+		</div>
+		<div class="flex items-center mb-6">
+			<div class="w-1/3">
+				<label class="block text-gray-500 font-bold mb-1 mb-0 pr-4">
+					Major questions to doctors:
+				</label>
+			</div>
+			<div class="w-2/3">
+				<textarea class="border border-gray-500 w-full" rows="10"></textarea>
+			</div>
+		</div>
+		<div class="flex items-center mb-6">
+			<div class="w-1/3">
+				<label class="block text-gray-500 font-bold mb-1 mb-0 pr-4">
+					Is there any aspect regarding the patient that Doctors need to take note of?
+				</label>
+			</div>
+			<div class="w-2/3">
+				<textarea class="border border-gray-500 w-full" rows="10"></textarea>
+			</div>
+		</div>
+		<div class="flex items-center text-center">
+			<div class="w-full">
+				<button class="bg-brand hover:bg-blue-700 focus:outline-none text-white font-bold py-2 px-4 rounded w-1/2">
+					Send
+				</button>
+			</div>
+		</div>
+	</form>
+	<!-- Form (end) -->
+</section>
+<!-- Section 4 (end) -->

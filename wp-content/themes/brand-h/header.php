@@ -21,6 +21,7 @@
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--End tailwind-->
 	<?php if (is_singular() && pings_open(get_queried_object())) : ?>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
@@ -35,13 +36,6 @@
 	?>
 
 	<style>
-		.medi-cover {
-			background-image: url("<?php bloginfo('template_directory') ?>/img/main_cover.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			min-height: 520px;
-		}
-
 		.endCont {
 			width: 100%;
 			height: 500px;
@@ -69,7 +63,7 @@
 <body <?php body_class(); ?>>
 
 	<!-- Header (start) -->
-	<header class="flex h-30 bg-white">
+	<header class="flex h-30 bg-white fixed" style="z-index: 50;">
 		<!-- Logo (start) -->
 		<div class="w-3/4">
 			<img class="w-3/4 mx-auto" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
