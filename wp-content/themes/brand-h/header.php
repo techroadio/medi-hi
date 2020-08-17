@@ -36,14 +36,6 @@
 	?>
 
 	<style>
-		.endCont {
-			width: 100%;
-			height: 500px;
-			background-image: url("<?php bloginfo('template_url') ?>/img/bg-end.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
-
 		.swiper-container {
 			cursor: pointer;
 			min-height: 340px;
@@ -51,10 +43,41 @@
 
 		.swiper-scrollbar {
 			bottom: 15px !important;
+			margin-left: 2em;
+			width: 90% !important;
 		}
 
 		.swiper-scrollbar-drag {
 			background: #ffffff;
+		}
+
+		.active {
+			display: inline-block !important;
+		}
+
+		.arrowAnimate {
+			animation-name: bounce;
+			animation-duration: 1.8s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes bounce {
+
+			0%,
+			20%,
+			50%,
+			80%,
+			100% {
+				transform: translateY(0px);
+			}
+
+			40% {
+				transform: translateY(-15px);
+			}
+
+			60% {
+				transform: translateY(-5px);
+			}
 		}
 	</style>
 
@@ -63,18 +86,18 @@
 <body <?php body_class(); ?>>
 
 	<!-- Header (start) -->
-	<header class="flex h-30 bg-white fixed" style="z-index: 50;">
+	<header class="flex bg-white fixed" style="z-index: 50;">
 		<!-- Logo (start) -->
 		<div class="w-3/4">
-			<img class="w-3/4 mx-auto" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
+			<img class="w-3/4 h-20 mx-auto" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
 		</div>
 		<!-- Logo (end) -->
 		<!-- Nav Menu (start) -->
 		<div class="w-1/4">
 			<nav class="flex items-center justify-between flex-wrap p-6">
 				<div class="block">
-					<button class="flex text-4xl items-center px-5 py-3 border rounded text-gray-700 border-gray-700">
-						<svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<button class="flex text-4xl items-center" style="color: #646464;">
+						<svg class="fill-current h-10 w-10" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 							<title>Menu</title>
 							<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
 						</svg>

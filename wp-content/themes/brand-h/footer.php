@@ -53,7 +53,30 @@
 		scrollbar: {
 			el: '.swiper-scrollbar',
 		},
-	})
+	});
+
+	jQuery(document).ready(
+		function() {
+
+			for (let i = 0; i < 3; i++) {
+				const chart = jQuery('.chart' + i);
+				const trig = jQuery('.chartTrig' + i);
+				chart.hide();
+
+				trig.on('click', function() {
+					jQuery(this).addClass('active').siblings().removeClass('active');
+					jQuery(this).addClass('border-2').siblings().removeClass('border-2');
+					if (trig.hasClass('active')) {
+						chart.addClass('active').siblings().removeClass('active');
+					}
+				});
+			}
+
+			jQuery("form input").on('invalid', function() {
+				$('input,textarea,radio').addClass('border border-red-500');
+			});
+		}
+	);
 </script>
 </body>
 
