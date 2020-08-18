@@ -51,8 +51,28 @@
 			background: #ffffff;
 		}
 
+		.endCont {
+			width: 635px;
+			height: 500px;
+			background-image: url("<?php bloginfo('template_directory') ?>/img/endCont.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.overlay {
+			background: #00000030;
+		}
+
 		.active {
 			display: inline-block !important;
+		}
+
+		.applyBtn {
+			border-radius: 10px;
+		}
+
+		.applyBtn:hover:after {
+			content: '>';
 		}
 
 		.arrowAnimate {
@@ -86,7 +106,7 @@
 <body <?php body_class(); ?>>
 
 	<!-- Header (start) -->
-	<header class="flex bg-white fixed" style="z-index: 50;">
+	<header class="flex md:w-1/2 bg-white fixed h-24 items-center shadow" style="z-index: 50;">
 		<!-- Logo (start) -->
 		<div class="w-3/4">
 			<img class="w-3/4 h-20 mx-auto" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
@@ -94,8 +114,8 @@
 		<!-- Logo (end) -->
 		<!-- Nav Menu (start) -->
 		<div class="w-1/4">
-			<nav class="flex items-center justify-between flex-wrap p-6">
-				<div class="block">
+			<nav class="flex items-center">
+				<div class="block mx-auto pl-24">
 					<button class="flex text-4xl items-center" style="color: #646464;">
 						<svg class="fill-current h-10 w-10" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 							<title>Menu</title>
