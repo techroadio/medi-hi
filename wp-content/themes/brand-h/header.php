@@ -52,7 +52,7 @@
 		}
 
 		.endCont {
-			width: 635px;
+			width: 100%;
 			height: 500px;
 			background-image: url("<?php bloginfo('template_directory') ?>/img/endCont.jpg");
 			background-repeat: no-repeat;
