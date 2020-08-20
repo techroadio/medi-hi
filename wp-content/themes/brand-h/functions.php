@@ -139,7 +139,7 @@ function home_cont()
 <section class="text-center">
 	<!-- Content (start) -->
 	<div class="endCont flex">
-		<p class="h-full overlay text-white font-bold text-6xl p-5 pt-56">
+		<p class="h-full overlay text-white font-bold text-5xl p-5 pt-56">
 			In addition, Himedi has cared for 4,239 patients while addressing 10,290 inquiries in consultation with Korea’s best medical staff.
 		</p>
 	</div>

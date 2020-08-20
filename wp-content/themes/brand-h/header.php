@@ -109,7 +109,7 @@
 	<header class="flex md:w-1/2 bg-white fixed h-24 items-center shadow" style="z-index: 50;">
 		<!-- Logo (start) -->
 		<div class="w-3/4">
-			<img class="w-3/4 h-20 mx-auto" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
+			<a href="<?php echo home_url(); ?>"><img class="w-3/4 h-20 mx-auto" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt=""></a>
 		</div>
 		<!-- Logo (end) -->
 		<!-- Nav Menu (start) -->
