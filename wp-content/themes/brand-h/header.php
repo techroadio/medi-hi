@@ -51,12 +51,12 @@
 			background: #ffffff;
 		}
 
+		.chartTrigCont button:first-child {
+			text-shadow: 0px 2px 5px #777
+		}
+
 		.endCont {
-			width: 100%;
-			height: 500px;
 			background-image: url("<?php bloginfo('template_directory') ?>/img/endCont.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
 		}
 
 		.overlay {
@@ -65,14 +65,6 @@
 
 		.active {
 			display: inline-block !important;
-		}
-
-		.applyBtn {
-			border-radius: 10px;
-		}
-
-		.applyBtn:hover:after {
-			content: '>';
 		}
 
 		.arrowAnimate {
@@ -106,17 +98,17 @@
 <body <?php body_class(); ?>>
 
 	<!-- Header (start) -->
-	<header class="flex md:w-1/2 bg-white fixed h-24 items-center shadow" style="z-index: 50;">
+	<header class="flex bg-white fixed items-center shadow" style="z-index: 50; height:65px;">
 		<!-- Logo (start) -->
-		<div class="w-3/4">
-			<a href="<?php echo home_url(); ?>"><img class="w-3/4 h-20 mx-auto" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt=""></a>
+		<div class="flex items-center w-4/5 h-full">
+			<a href="<?php echo home_url(); ?>"><img class="w-4/5 float-right" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt=""></a>
 		</div>
 		<!-- Logo (end) -->
 		<!-- Nav Menu (start) -->
-		<div class="w-1/4">
-			<nav class="flex items-center">
-				<div class="block mx-auto pl-24">
-					<button class="flex text-4xl items-center" style="color: #646464;">
+		<div class="flex text-center items-center w-1/5 h-full">
+			<nav class="items-center">
+				<div class="mx-auto sm:pl-24 sm:pr-0 pl-5 pr-5">
+					<button class="text-4xl items-center" style="color: #646464;">
 						<svg class="fill-current h-10 w-10" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 							<title>Menu</title>
 							<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />

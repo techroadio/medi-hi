@@ -64,8 +64,8 @@
 				chart.hide();
 
 				trig.on('click', function() {
-					jQuery(this).addClass('active').siblings().removeClass('active');
-					jQuery(this).addClass('border-2').siblings().removeClass('border-2');
+					jQuery(this).addClass('active border-2 shadow-md').siblings().removeClass('active border-2 shadow-md');
+					jQuery(this).css('text-shadow', '0px 2px 5px #777').siblings().css('text-shadow', '0px 0px 0px #00000000');
 					if (trig.hasClass('active')) {
 						chart.addClass('active').siblings().removeClass('active');
 					}

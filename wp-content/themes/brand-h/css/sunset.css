@@ -316,6 +316,12 @@ a {
 	Header 
 	------------------------------------------------
 */
+header {
+  width: 635px; }
+  @media only screen and (max-width: 500px) {
+    header {
+      width: 100%; } }
+
 .header-container {
   position: relative;
   display: block;
@@ -1201,5 +1207,36 @@ h2.sunset-widget-title {
 
 .bg-brand {
   background: #2681F3; }
+
+.chartTrigCont button {
+  width: 10em;
+  height: 10em; }
+  @media only screen and (max-width: 500px) {
+    .chartTrigCont button {
+      width: 14em;
+      height: 14em;
+      font-size: 10px; } }
+
+.applyBtn {
+  border-radius: 10px; }
+  .applyBtn:after {
+    position: absolute;
+    margin-left: -1em;
+    opacity: 0;
+    content: ">";
+    transition: all 300ms ease 0ms; }
+  .applyBtn:hover:after {
+    opacity: 1;
+    margin-left: 1em; }
+
+.endCont {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media only screen and (max-width: 400px) {
+    .endCont {
+      height: 280px;
+      background-size: contain !important; } }
 
 /*# sourceMappingURL=sunset.css.map */
