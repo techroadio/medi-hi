@@ -407,14 +407,470 @@
   <div>
     <img class="mx-auto mb-24 h-32" src="<?php bloginfo('template_directory') ?>/img/user-check-light.svg" >
   </div>
-  <div>
+  <div class="text-5xl font-bold text-center mb-20">
     Please listen to patients who have been cared for by Himedi.
   </div>
-  <div>
-    <img class="mx-auto mb-24 h-16" src="<?php bloginfo('template_directory') ?>/img/quote-left-solid.svg" >
+	
+	<!-- Main slider (start) -->
+	<div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper mt-12">
+                <!-- Slides -->
+                <div class="swiper-slide">
+					<div>
+						<svg class="mb-12 h-8 text-gray-500" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
+						</svg>
+
+						<div class="italic text-3xl text-gray-700">
+							Regarding Himedi, to be honest, they did all their best for us, starting from the airport where they greeted us in a friendly manner to recommending the best hotels in Seoul for us. They took care of everything, especially hospital recommendations, recommending one of the best hospitals in Seoul that is specialized in cancer treatments.
+						</div>	
+						<div class="mt-10 text-gray-500 mb-32 italic text-3xl">
+							Yousif
+						</div>
+					</div>
+					<div>
+						
+					</div>
+					<a href="https://youtu.be/_XIwRAO57wI"><img src="<?php bloginfo('template_directory') ?>/img/interview1.jpg" width="632px" height="348px" alt="">
+						<!-- <iframe id="ytplayer" type="text/html" width="720" height="405"
+								src="https://www.youtube.com/embed/M7lc1UVf-VE"
+								frameborder="0" allowfullscreen> -->
+					</a>
+                </div>
+                <div class="swiper-slide">
+							<div>
+								<svg class="mb-12 h-8 text-gray-500" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
+								</svg>
+
+								<div class="italic text-3xl text-gray-700">
+									Frankly, Everything they provide is good, including organizing and all what they do is just well provided.
+								</div>	
+								<div class="mt-10 text-gray-500 mb-32 italic text-3xl">
+									Mariam
+								</div>
+							</div>
+				          <a href="https://youtu.be/DXg_vmpIlmE"><img src="<?php bloginfo('template_directory') ?>/img/interview2.jpg" width="632px" height="348px" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+							<div>
+								<svg class="mb-12 h-8 text-gray-500" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
+								</svg>
+
+								<div class="italic text-3xl text-gray-700">
+									I should mention that Himedi provides services rather than hospital related services, such as recommending not just large hospitals but also simple and small clinics, as well as recommending tourism services for those who are interested in tours and traveling around. Moreover, translation and interpretation service, unlike other tourism agencies, communicating with Himedi was easy and comfortable, Himedi facilitates connecting with hospitals, moreover, this is available for 24 hours.
+								</div>	
+								<div class="mt-10 text-gray-500 mb-32 italic text-3xl">
+									Saeed abdullah 
+								</div>
+							</div>
+				          <a href="https://youtu.be/IaoksqOG9eo?t=44"><img src="<?php bloginfo('template_directory') ?>/img/interview3.jpg" width="632px" height="348px" alt=""></a>
+                </div>
+				<div class="swiper-slide">
+						<div>
+								<svg class="mb-12 h-8 text-gray-500" viewBox="0 0 512 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M464 224H384V160C384 124.7 412.7 96 448 96H456C469.3 96 480 85.3 480 72V24C480 10.7 469.3 0 456 0H448C359.6 0 288 71.6 288 160V400C288 426.5 309.5 448 336 448H464C490.5 448 512 426.5 512 400V272C512 245.5 490.5 224 464 224ZM176 224H96V160C96 124.7 124.7 96 160 96H168C181.3 96 192 85.3 192 72V24C192 10.7 181.3 0 168 0H160C71.6 0 0 71.6 0 160V400C0 426.5 21.5 448 48 448H176C202.5 448 224 426.5 224 400V272C224 245.5 202.5 224 176 224Z" fill="currentcolor"/>
+								</svg>
+
+								<div class="italic text-3xl text-gray-700">
+									Himedi is a specialized company, I am glad that I had the opportunity of getting to know it. When we came in Seoul we were able to experience its services all. Those who work there, they can speak Arabic and English very well, and I just felt as if I am in my homeland.
+								</div>	
+								<div class="mt-10 text-gray-500 mb-32 italic text-3xl">
+									Badee
+								</div>
+							</div>
+				          <a href="https://youtu.be/AbLHU1mED5A"><img src="<?php bloginfo('template_directory') ?>/img/interview4.jpg" width="632px" height="348px" alt=""></a>
+                </div>
+                <!-- ... (use in case of pagination) -->
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div> -->
+            <!-- <div class="swiper-button-next"></div> -->
+    
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <!-- Main slider (end) -->
+    
+		
+	
+
   </div>
 <!-- Section 3-4 (end) -->
+<!-- Section 3-5 (start) -->
+<section class="items-center pt-40">
+<div class="flex justify-center flex-wrap mx-10">
+        <div class="flex justify-center flex-wrap w-full">
+            <svg class="w-6 m-2 lg:h-32 lg:w-32" viewBox="0 0 384 512" fill="black" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M336 64H247.4C247.8 61.4 248 58.7 248 56C248 25.1 222.9 0 192 0C161.1 0 136 25.1 136 56C136 58.7 136.2 61.4 136.6 64H48C21.5 64 0 85.5 0 112V464C0 490.5 21.5 512 48 512H336C362.5 512 384 490.5 384 464V112C384 85.5 362.5 64 336 64ZM192 32C205.3 32 216 42.7 216 56C216 69.3 205.3 80 192 80C178.7 80 168 69.3 168 56C168 42.7 178.7 32 192 32ZM352 464C352 472.8 344.8 480 336 480H48C39.2 480 32 472.8 32 464V112C32 103.2 39.2 96 48 96H96V116C96 122.6 101.4 128 108 128H276C282.6 128 288 122.6 288 116V96H336C344.8 96 352 103.2 352 112V464ZM280 288H224V232C224 227.6 220.4 224 216 224H168C163.6 224 160 227.6 160 232V288H104C99.6 288 96 291.6 96 296V344C96 348.4 99.6 352 104 352H160V408C160 412.4 163.6 416 168 416H216C220.4 416 224 412.4 224 408V352H280C284.4 352 288 348.4 288 344V296C288 291.6 284.4 288 280 288Z"
+                    fill="black" />
+            </svg>
+        </div>
+        <div class="flex justify-center flex-wrap w-full">
+            <h3 class="text-base lg:text-5xl font-bold mt-2 lg:mt-10 mb-4 lg:mb-16 text-center">Check out these diagnosis examples and methods best
+                suitable for you.</h3>
+        </div>
 
+        <div class="flex justify-center flex-wrap w-40 lg:w-5/12 lg:text-3xl">
+            <button id="choleithiasis_button"
+                class="relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 lg:py-3 border border-blue-500 hover:border-transparent rounded-full m-2 min-w-full">
+                Choleithiasis
+                <svg class="w-3 lg:w-10 absolute right-0 mr-2 lg:mr-5" viewBox="0 0 640 512" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M227 417C216 417 207 408 207 397V333C207 322 216 313 227 313C238 313 247 322 247 333V397C247 408 238 417 227 417ZM480.5 -4.11593e-05C392 -0.300041 320 71.6 320 160V224H48C21.5 224 0 245.5 0 272V464C0 490.5 21.5 512 48 512H400C426.5 512 448 490.5 448 464V272C448 245.5 426.5 224 400 224H352V161.4C352 90.7 408.7 32.4 479.3 32C550.2 31.6 608 89.2 608 160V244C608 250.6 613.4 256 620 256H628C634.6 256 640 250.6 640 244V161.5C640 73.1 568.9 0.299959 480.5 -4.11593e-05ZM400 256C408.8 256 416 263.2 416 272V464C416 472.8 408.8 480 400 480H48C39.2 480 32 472.8 32 464V272C32 263.2 39.2 256 48 256H400Z"
+                        fill="#2b6cb0" />
+                </svg>
+
+            </button>
+
+            <button
+			class="relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-gray-500 py-1 lg:py-3 border border-gray-500 pointer-events-none rounded-full m-4 min-w-full">
+                text1
+                <svg class="w-2 lg:w-8 absolute right-0 mr-2 lg:mr-5" viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M224 420C213 420 204 411 204 400V336C204 325 213 316 224 316C235 316 244 325 244 336V400C244 411 235 420 224 420ZM448 272V464C448 490.5 426.5 512 400 512H48C21.5 512 0 490.5 0 464V272C0 245.5 21.5 224 48 224H64V160C64 71.6 136 -0.300041 224.5 -4.11593e-05C312.9 0.299959 384 73.1 384 161.5V224H400C426.5 224 448 245.5 448 272ZM96 224H352V160C352 89.4 294.6 32 224 32C153.4 32 96 89.4 96 160V224ZM416 464V272C416 263.2 408.8 256 400 256H48C39.2 256 32 263.2 32 272V464C32 472.8 39.2 480 48 480H400C408.8 480 416 472.8 416 464Z"
+                        fill="currentcolor" />
+                </svg>
+            </button>
+
+            <button
+			class="relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-gray-500 py-1 lg:py-3 border border-gray-500 pointer-events-none rounded-full m-4 min-w-full">
+                text2
+                <svg class="w-2 lg:w-8 absolute right-0 mr-2 lg:mr-5 " viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M224 420C213 420 204 411 204 400V336C204 325 213 316 224 316C235 316 244 325 244 336V400C244 411 235 420 224 420ZM448 272V464C448 490.5 426.5 512 400 512H48C21.5 512 0 490.5 0 464V272C0 245.5 21.5 224 48 224H64V160C64 71.6 136 -0.300041 224.5 -4.11593e-05C312.9 0.299959 384 73.1 384 161.5V224H400C426.5 224 448 245.5 448 272ZM96 224H352V160C352 89.4 294.6 32 224 32C153.4 32 96 89.4 96 160V224ZM416 464V272C416 263.2 408.8 256 400 256H48C39.2 256 32 263.2 32 272V464C32 472.8 39.2 480 48 480H400C408.8 480 416 472.8 416 464Z"
+                        fill="currentcolor" />
+                </svg>
+            </button>
+
+            <button
+			class="relative flex items-center justify-center content-center bg-transparent hover:bg-blue-500 text-gray-500 py-1 lg:py-3 border border-gray-500 pointer-events-none rounded-full m-4 min-w-full">
+                text3
+                <svg class="w-2 lg:w-8 absolute right-0 mr-2 lg:mr-5" viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M224 420C213 420 204 411 204 400V336C204 325 213 316 224 316C235 316 244 325 244 336V400C244 411 235 420 224 420ZM448 272V464C448 490.5 426.5 512 400 512H48C21.5 512 0 490.5 0 464V272C0 245.5 21.5 224 48 224H64V160C64 71.6 136 -0.300041 224.5 -4.11593e-05C312.9 0.299959 384 73.1 384 161.5V224H400C426.5 224 448 245.5 448 272ZM96 224H352V160C352 89.4 294.6 32 224 32C153.4 32 96 89.4 96 160V224ZM416 464V272C416 263.2 408.8 256 400 256H48C39.2 256 32 263.2 32 272V464C32 472.8 39.2 480 48 480H400C408.8 480 416 472.8 416 464Z"
+                        fill="currentcolor" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
+    <div id="main_pop_up" class="w-full absolute top-0 hidden" style="height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png\);background-repeat: no-repeat;background-size:cover;top:50%; transform: translateY(-50%);">
+        <!-- PopUp Content goes here. -->
+    </div>
+
+</section>
+<!-- Section 3-5 (end) -->
+
+<!-- Section 3-6 (start) -->
+
+<div class="flex flex-wrap">
+
+	<div class="flex flex-wrap relative">
+		<img class="w-full" src="<?php bloginfo('template_directory') ?>/img/static/p_himedi_1_m.jpg" alt="">
+		<div class="absolute top-0 right-0 flex flex-wrap items-center justify-center content-center w-full h-full p-6"
+			style="background-color: rgba(0, 0, 0, 0.4);">
+			<h1 class="text-lg font-bold m-4 text-center text-white">About Himedi</h1>
+			<p class="text-xs text-center text-white">Himedi makes known excellent medical technology and service of
+				Korea and address inconveniences in medical tourism so as to contribute to a happy and healthy life
+				of foreign patients who need treatment as well as the development of Korea’s medical tourism
+				industry.</p>
+		</div>
+	</div>
+
+	<div class="flex justify-center content-center flex-wrap w-full">
+		<img class="w-32 m-6" src="<?php bloginfo('template_directory') ?>/img/static/lobo.png" alt="" srcset="">
+	</div>
+
+	<div class="flex flex-wrap m-2 mx-6">
+		<p class="text-sm">‘Himedi’ is a combined word of ‘Hi’ which is a friendly greeting and ‘Medical’ which
+			means medical science. It reflects the intention to provide friendly service that wipes out fear from
+			foreign patients coming from overseas.</p>
+	</div>
+
+	<div class="flex flex-wrap w-full px-6 pt-10" style="background-color: #f7f7f7;">
+		<h4 class="uppercase font-bold">History</h4>
+		<p class="text-sm my-4">The path that Himedi has followed since 2011 as ‘an enterprise of innovation that
+			realizes easy and comfortable medical tourism.’</p>
+		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200">
+			<div class="text-sm font-bold mr-4">
+				2020
+			</div>
+
+			<div class="flex flex-wrap">
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						04
+					</div>
+					<div class="text-sm">
+						Attracted Series B investment amounting to 6 billion won
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200">
+			<div class="text-sm font-bold mr-4">
+				2019
+			</div>
+
+			<div class="flex flex-wrap">
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						04
+					</div>
+					<div class="text-sm">
+						Himedi Korea Co., Ltd. Separated as an affiliate
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						04
+					</div>
+					<div class="text-sm">
+						Changed the company name to Himedi Co., Ltd.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200">
+			<div class="text-sm font-bold mr-4">
+				2018
+			</div>
+
+			<div class="flex flex-wrap">
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						10
+					</div>
+					<div class="text-sm">
+						Attracted Series A investment amounting to 2 billion won from Murex Partners
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						09
+					</div>
+					<div class="text-sm">
+						Concluded the concierge contract of Russian patients with Severance Check-up
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						08
+					</div>
+					<div class="text-sm">
+						Founded the Uzbekistan corporation of Himedi
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						08
+					</div>
+					<div class="text-sm">
+						Concluded the concierge operation/management contract of Arab Muslim patients with BOBATH
+						Memorial Hospital
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						06
+					</div>
+					<div class="text-sm">
+						Concluded the concierge operation/management contract of Arab Muslim patients with Wooridul
+						Hospital in Cheongdam
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						02
+					</div>
+					<div class="text-sm">
+						Concluded the concierge operation/management contract of Arab Muslim patients with Seoul National University Bundang Hospital
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						01
+					</div>
+					<div class="text-sm">
+						Concluded the concierge operation/management contract of Arab Muslim patients with Seoul National University Hospital (Main)
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200">
+			<div class="text-sm font-bold mr-4">
+				2015
+			</div>
+
+			<div class="flex flex-wrap">
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						12
+					</div>
+					<div class="text-sm">
+						Concluded the concierge operation/management contract of Arab Muslim patients with Cha University Gangnam Medical Center
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						11
+					</div>
+					<div class="text-sm">
+						Concluded the concierge operation/management contract of Arab Muslim patients with Samsung Medical Center
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						09
+					</div>
+					<div class="text-sm">
+						Concluded the UAE health insurance patient registration/billing service contract with Daman Health Insurance
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						03
+					</div>
+					<div class="text-sm">
+						An internship program with Arabic Department of Chosun University
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						03
+					</div>
+					<div class="text-sm">
+						An internship program with Arabic Studies Department, Myongji University
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200">
+			<div class="text-sm font-bold mr-4">
+				2014
+			</div>
+
+			<div class="flex flex-wrap">
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						12
+					</div>
+					<div class="text-sm">
+						Concluded the medical checkup service contract for the staff of the Russian airline Air Bridge Cargo
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						07
+					</div>
+					<div class="text-sm">
+						Founded the corporation of Widers Korea
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="flex mt-2 pb-4 border-solid border-b-2 border-gray-200">
+			<div class="text-sm font-bold mr-4">
+				2011
+			</div>
+
+			<div class="flex flex-wrap">
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						12
+					</div>
+					<div class="text-sm">
+						Concluded the concierge operation/management contract of Arab Muslim patients with Severance Hospital
+					</div>
+				</div>
+
+				<div class="flex mb-2">
+					<div class="text-sm mr-4">
+						12
+					</div>
+					<div class="text-sm">
+						Founded Widers Company
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+
+	<div class="flex flex-wrap w-full px-6 py-5">
+		<h4 class="uppercase font-bold mb-4">Location</h4>
+
+		<iframe class="w-full h-56 mb-4" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDgl81NrLLD43y1Qep_Dc8INyr8ilgvSwE
+	&q=Space+Needle,Seattle+WA" allowfullscreen>
+		</iframe>
+
+		<h4 class="mb-4 w-full">Himedi Headquarters</h4>
+
+		<div class="">
+			<table>
+				<tr class="text-sm">
+					<td class="pr-4">Address</td>
+					<td class="py-2">7th Floor, Hongwu-2-Building, 78-gil 22, Seochodaero, Seocho-gu, Seoul</td>
+				</tr>
+
+				<tr class="text-sm">
+					<td class="pr-4">Location</td>
+					<td class="py-2">5 minutes from Exit No. 6 of Gangnam Station (Shinbundang subway line)</td>
+				</tr>
+
+				<tr class="text-sm">
+					<td class="pr-4">Tel</td>
+					<td class="py-2">070-8146-8986</td>
+				</tr>
+
+				<tr class="text-sm">
+					<td class="pr-4">Fax</td>
+					<td class="py-2">02-545-0420</td>
+				</tr>
+
+				<tr class="text-sm">
+					<td class="pr-4">E-mail</td>
+					<td class="py-2">acc@himedi.com</td>
+				</tr>
+
+			</table>
+		</div>
+
+	</div>
+
+</div>
+<!-- Section 3-6 (end) -->
 <!-- Section 4 (start) -->
 <section class="items-center pt-40">
 
