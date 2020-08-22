@@ -20,13 +20,13 @@
             <div class="swiper-wrapper mt-12">
                 <!-- Slides -->
                 <div class="swiper-slide">
-					<img src="<?php bloginfo('template_directory') ?>/img/Bild2.jpg" width="632px" height="348px" alt="">
+					        <img src="<?php bloginfo('template_directory') ?>/img/Bild2.jpg" width="632px" height="348px" alt="">
                 </div>
                 <div class="swiper-slide">
-				<img src="<?php bloginfo('template_directory') ?>/img/Bild3.jpg" width="632px" height="348px" alt="">
+				          <img src="<?php bloginfo('template_directory') ?>/img/Bild3.jpg" width="632px" height="348px" alt="">
                 </div>
                 <div class="swiper-slide">
-				<img src="<?php bloginfo('template_directory') ?>/img/Bild4.jpg" width="632px" height="348px" alt="">
+				          <img src="<?php bloginfo('template_directory') ?>/img/Bild4.jpg" width="632px" height="348px" alt="">
                 </div>
                 <!-- ... (use in case of pagination) -->
             </div>
@@ -228,9 +228,11 @@
     </div>
 	</div>
   <!-- Button (start) -->
-	<button class="bg-white p-10 text-blue-500 w-56 mx-auto mt-10 mb-24" style="border-radius:10px; font-size:18px">
-    Inquiry
-	</button>
+  <div class="flex justify-center">
+    <button class="bg-white px-5 py-5 text-blue-500 w-56 mx-auto mt-10 mb-24" style="border-radius:10px; font-size:18px">
+      Inquiry
+    </button>
+  </div>
 	<!-- Button (end) -->
 
 	<!-- Content (end) -->
@@ -244,13 +246,123 @@
   <div class="text-blue-500 text-bold mt-20 text-3xl">
     STEP 01
   </div>
-  <div>
+  <div class="text-bold text-3xl">
     Let Himedi know your disease name and questions you want to ask doctors. 
   </div>
-  <div>
+  <div class="mt-3">
     Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you.
   </div>
-</div>
+  <div>
+    <img class="mx-auto mb-24 mt-5" src="<?php bloginfo('template_directory') ?>/img/section3-2-phone.png" width="346px" height="346px" alt="">
+  </div>
+  <!-- Button (start) -->
+  <div class="flex justify-center">
+    <button class="bg-brand px-5 py-5 text-white w-64 mx-auto mt-10" style="border-radius:10px; font-size:18px">
+      Check hospitals
+    </button>
+  </div>
+	<!-- Button (end) -->
+  <div class="text-blue-500 text-bold mt-20 text-3xl">
+    STEP 02
+  </div>
+  <div class="text-bold text-3xl">
+  If you would like to receive the second opinion or deputy consultation from the recommended doctors, please share more detailed medical records.
+  </div>
+  <!-- Main slider (start) -->
+  <div class="swiper-container" style="height:500px">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper mt-12">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-1.jpg" width="632px" height="348px" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-2.jpg" width="632px" height="348px" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-3.jpg" width="632px" height="348px" alt="">
+          </div>
+          <!-- ... (use in case of pagination) -->
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div> -->
+      <!-- <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+  </div>
+  <!-- Main slider (end) -->
+  <div class="text-blue-500 text-bold mt-20 text-3xl">
+    STEP 03
+  </div>
+  <div class="text-bold text-3xl mb-16">
+    Based on the shared materials, Himedi proposes a plan for treatment available in Korea.
+  </div>
+  <div>
+    <img src="<?php bloginfo('template_directory') ?>/img/section3-3-1.jpg" width="632px" height="348px" alt="">
+  </div>
+  <!-- Button (start) -->
+  <div class="flex justify-center mt-24">
+    <button class="bg-brand px-5 py-5 text-white mx-auto mt-10" style="border-radius:10px; font-size:18px">
+      Check medical diagnoses
+    </button>
+  </div>
+	  <!-- Button (end) -->
+  </div>
+  <div class="mt-56">
+    <div class="text-6xl">
+      Feel free to ask us anything. <br>We will reply<br> kindly and promptly.
+    </div>
+    <div class="text-3xl px-5 mt-10">
+      Do you have difficulty in inquiring? <br>We give sincere answers to any question for patients’ recovery.
+    </div>
+    <div class="text-3xl text-blue-500 text-bold mt-20 px-5">
+      Start consultation
+    </div>
+    <div>
+      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/section3-2-phone.png" width="346px" height="346px" alt="">
+    </div>
+  </div>
+  <div class="px-10"> 
+    <div class="font-bold text-blue-500 text-4xl">
+      * Period required: about 10 days
+    </div>
+    <div class="px-8">
+      Examination results are made available within 10 days from the time when records are received and delivered.
+    </div>
+    <div class="font-bold text-blue-500 text-4xl mt-20">
+      * Estimated cost: Please inquire.
+    </div>
+    <div class="px-8">
+      Examination results are made available within 10 days from the time when records are received and delivered.
+    </div>
+    <!-- Button (start) -->
+    <div class="flex justify-center mt-24">
+      <button class="bg-brand px-5 py-5 w-56 text-white mx-auto mt-10" style="border-radius:10px; font-size:18px">
+        Inquiry
+      </button>
+    </div>
+	  <!-- Button (end) -->
+  </div>
+  <div class="mt-56">
+    <div class="text-6xl">
+      Himedi solves problems that patients and their caregivers face.
+    </div>
+    <div class="text-3xl px-5 mt-10">
+      Himedi dreams of a heartwarming world where everyone enjoys a healthy life. Going beyond the step of medical tourism, Himedi, as a complex medical service platform, presents a new direction for medical service.
+    </div>
+    <!-- Button (start) -->
+    <div class="flex justify-center mt-24">
+      <button class="border border-blue-500 rounded-full px-5 py-5 w-8/12 mx-auto mt-10 text-blue-500 text-3xl">
+        Himedi Story
+      </button>
+    </div>
+	  <!-- Button (end) -->
+    
+  </div>
 <!-- Section 3-2 (end) -->
 <!-- Section 4 (start) -->
 <section class="items-center pt-40">
