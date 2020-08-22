@@ -98,7 +98,7 @@
 <body <?php body_class(); ?>>
 
 	<!-- Header (start) -->
-	<header class="flex bg-white items-center shadow" style="z-index: 50; height:65px;">
+	<header class="flex bg-white fixed items-center shadow" style="z-index: 50; height:65px;">
 		<!-- Logo (start) -->
 		<div class="flex items-center w-4/5 h-full">
 			<a href="<?php echo home_url(); ?>"><img class="w-4/5 float-right" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt=""></a>

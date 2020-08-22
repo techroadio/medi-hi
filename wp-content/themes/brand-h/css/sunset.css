@@ -1215,8 +1215,7 @@ h2.sunset-widget-title {
     .chartTrigCont button {
       width: 14em;
       height: 14em;
-      line-height: 15px;
-      font-size: 7px; } }
+      font-size: 10px; } }
 
 .applyBtn {
   border-radius: 10px; }
