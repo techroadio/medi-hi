@@ -118,7 +118,7 @@
 			<div class="sidebar-scroll">
 				
 				<div class="">
-					<div class="py-10 px-10">
+					<div class="py-10 px-10 mt-16">
 						We give sincere answers to any question for patients’ recovery.
 					</div>
 					<div class="flex justify-center">
@@ -167,8 +167,7 @@
 						</div>
 					</div>
 
-					<div class="" >
-						<!-- <div style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/sidebar-1.jpg);height:100px;widht:100px" class="px-2 pt-16"> -->
+					<div class="mt-12" >
 						<div style="position:relative">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/sidebar-1.jpg" style="position:absolute;top:0px">
 							<div style="position:absolute;top:10px">
