@@ -106,7 +106,7 @@
 <body <?php body_class(); ?>>
 
 	<!-- Header (start) -->
-	<header class="flex md:w-1/2 bg-white fixed h-24 items-center shadow" style="z-index: 50;">
+	<header class="flex md:w-1/2 bg-white fixed h-24 items-center shadow" style="z-index: 50;width:635px">
 		<!-- Logo (start) -->
 		<div class="w-3/4">
 			<a href="<?php echo home_url(); ?>"><img class="w-3/4 h-20 mx-auto" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt=""></a>
