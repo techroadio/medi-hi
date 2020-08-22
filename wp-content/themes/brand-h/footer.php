@@ -10,9 +10,9 @@
 
 <footer class="text-center mt-20">
 	<!-- Footer links (start) -->
-	<div class="text-3xl">
-		<a href="#">Terms of Use</a> .
-		<a href="#">Privacy Policy</a>
+	<div class="text-2xl text-gray-500 mb-5">
+		<a href="https://himedi.com/en?terms=true" class="text-gray-500 font-bold">Terms of Use</a> .
+		<a href="https://himedi.com/en?privacy=true" class="text-gray-500 font-bold">Privacy Policy</a>
 	</div>
 	<!-- Footer links (end) -->
 
@@ -23,11 +23,11 @@
 	<!-- Address (end) -->
 
 	<!-- Copyright notice (start) -->
-	<p class="text-gray-500">
+	<p class="text-gray-500 mt-8">
 		© HIMEDI SEA PTE. LTD.
 	</p>
 	<!-- Copyright notice (end) -->
-</footer>
+</footer> 
 
 <?php wp_footer(); ?>
 

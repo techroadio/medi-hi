@@ -240,6 +240,9 @@
 <!-- Section 3-1 (end) -->
 <!-- Section 3-2 (start) -->
 <div class="mt-20 px-5">
+  <div>
+    <img class="mx-auto mb-24 mt-5 h-24" src="<?php bloginfo('template_directory') ?>/img/user-nurse-light.svg"> 
+  </div>
   <div class="text-4xl">
     Himedi recommends remedies and best doctors for you.
   </div>
@@ -364,6 +367,54 @@
     
   </div>
 <!-- Section 3-2 (end) -->
+<!-- Section 3-3 (start) -->
+  <div class="mt-20">
+    <img class="mx-auto mb-24 h-32" src="<?php bloginfo('template_directory') ?>/img/hospital-alt-light.svg" >
+  </div>
+  <div class="w-full mb-32 ">
+    <div class="mt-20 text-5xl font-bold text-center">
+      Check out Korea’s best medical staff.
+    </div>
+  </div>
+  <div class="mt-20">
+    <div class="flex">
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/01-logo.png" >
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/02-logo.png" >
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/03-logo.png" >
+    </div>
+    <div class="flex">
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/04-logo.png" >
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/05-logo.png" >
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/06-logo.png" >
+    </div>
+    <div class="flex">
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/07-logo.png" >
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/08-logo.png" >
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/09-logo.png" >
+    </div>
+    <div class="flex">
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/10-logo.png" >
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/11-logo.png" >
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/12-logo.png" >
+    </div>
+    <div class="flex">
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/13-logo.png" >
+      <img class="mx-auto mb-24 h-40" src="<?php bloginfo('template_directory') ?>/img/partners/14-logo.png" >
+    </div>
+  </div>
+<!-- Section 3-3 (end) -->
+<!-- Section 3-4 (start) -->
+  <div>
+    <img class="mx-auto mb-24 h-32" src="<?php bloginfo('template_directory') ?>/img/user-check-light.svg" >
+  </div>
+  <div>
+    Please listen to patients who have been cared for by Himedi.
+  </div>
+  <div>
+    <img class="mx-auto mb-24 h-16" src="<?php bloginfo('template_directory') ?>/img/quote-left-solid.svg" >
+  </div>
+<!-- Section 3-4 (end) -->
+
 <!-- Section 4 (start) -->
 <section class="items-center pt-40">
 
@@ -373,7 +424,7 @@
 
 	<!-- Content (start) -->
 	<h3 class="text-center p-10">
-		Please leave your contact information and inquiry. An answer will be given within 24 hours.
+    Please leave your contact information and inquiry. An answer will be given within 24 hours.
 	</h3>
 	<p class="text-center text-4xl text-blue-500 p-10">
 		* If you have an urget inquiry please leave it via WhatsApp.
