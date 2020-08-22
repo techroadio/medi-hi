@@ -6,4 +6,4 @@ wp-config-prod.php
 .DS_Store
 wp-content/.DS_Store
 wp-content/plugins/.DS_Store
-
+.htaccss
