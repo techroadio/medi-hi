@@ -183,7 +183,26 @@
 
 </section>
 <!-- Section 3 (end) -->
+<!-- Section 3-1 (start) -->
+<section class="text-center mt-40">
+	<!-- Content (start) -->
+	<h2 class="font-bold">
+		Get a personalized consultation suitable to you
+	</h2>	
+	<button class="bg-brand p-3 text-white w-3/12 mx-auto mt-10" style="border-radius:30px; font-size:32px">
+		01
+	</button>
+	<div>
+	<div class="h-10 w-10">
+		<img src="<?php bloginfo('template_directory') ?>/img/hospital-user-regular.svg">
+	</div>
 
+	<div>text</div>
+	</div>
+
+	<!-- Content (end) -->
+</section>
+<!-- Section 3-1 (end) -->
 <!-- Section 4 (start) -->
 <section class="items-center pt-40">
 

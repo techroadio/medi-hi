@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--End tailwind-->
+	
 	<?php if (is_singular() && pings_open(get_queried_object())) : ?>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<?php endif; ?>
