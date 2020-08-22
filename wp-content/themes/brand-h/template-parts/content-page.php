@@ -205,12 +205,12 @@
   <button class="bg-brand p-1 text-white w-48 mx-auto mt-10 mb-10" style="border-radius:30px; font-size:32px">
 		02
 	</button>
-	<div class="flex px-5">
+	<div class="flex px-5 w-full">
     <div class="h-32 w-32 flex itmes-center justify-center" style="color:blue">
       <img src="<?php bloginfo('template_directory') ?>/img/user-md-chat-light.svg" >
     </div>
-    <div class="mb-5">
-      <div class="text-white text-4xl mb-5">Telemedicine consultation</div>
+    <div class="mb-5 w-full">
+      <div class="text-white text-4xl mb-5 mx-auto w-full"><span>Telemedicine consultation</span></div>
       <div>*Available for new patients as well</div>
     </div>
 	</div>
@@ -222,13 +222,13 @@
     <div class="h-32 w-32 flex itmes-center justify-center" style="color:blue">
       <img src="<?php bloginfo('template_directory') ?>/img/notes-medical-light.svg" >
     </div>
-    <div class="mb-5">
+    <div class="mb-5 w-full">
       <div class="text-white text-4xl mb-5">Request for the 2nd opinion</div>
       <div>*Available for new patients as well</div>
     </div>
 	</div>
   <!-- Button (start) -->
-	<button class="bg-white p-10 text-blue-500 w-56 mx-auto mt-10 mb-10" style="border-radius:10px; font-size:18px">
+	<button class="bg-white p-10 text-blue-500 w-56 mx-auto mt-10 mb-24" style="border-radius:10px; font-size:18px">
     Inquiry
 	</button>
 	<!-- Button (end) -->
@@ -241,8 +241,14 @@
   <div class="text-4xl">
     Himedi recommends remedies and best doctors for you.
   </div>
-  <div class="text-blue-500 text-bold mt-20 text-2xl">
-  STEP 01
+  <div class="text-blue-500 text-bold mt-20 text-3xl">
+    STEP 01
+  </div>
+  <div>
+    Let Himedi know your disease name and questions you want to ask doctors. 
+  </div>
+  <div>
+    Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you.
   </div>
 </div>
 <!-- Section 3-2 (end) -->
