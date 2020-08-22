@@ -184,25 +184,68 @@
 </section>
 <!-- Section 3 (end) -->
 <!-- Section 3-1 (start) -->
-<section class="text-center mt-40">
+<section class="text-center mt-40 pt-20" style="background-color:#EAF3FE">
 	<!-- Content (start) -->
 	<h2 class="font-bold">
 		Get a personalized consultation suitable to you
 	</h2>	
-	<button class="bg-brand p-3 text-white w-3/12 mx-auto mt-10" style="border-radius:30px; font-size:32px">
+	<button class="bg-brand p-1 text-white w-48 mx-auto mt-10 mb-10" style="border-radius:30px; font-size:32px">
 		01
 	</button>
-	<div>
-	<div class="h-10 w-10">
-		<img src="<?php bloginfo('template_directory') ?>/img/hospital-user-regular.svg">
+	<div class="flex px-8">
+    <div class="h-32 w-32 flex itmes-center justify-center mt-5" style="color:blue">
+      <img src="<?php bloginfo('template_directory') ?>/img/hospital-user-light.svg" >
+    </div>
+    <div class="mb-5">
+      <div class="text-white text-4xl mb-5">Consulting directly with a doctor on behalf of you</div>
+      <div>*Available only for patients already with medical records</div>
+    </div>
 	</div>
 
-	<div>text</div>
+  <button class="bg-brand p-1 text-white w-48 mx-auto mt-10 mb-10" style="border-radius:30px; font-size:32px">
+		02
+	</button>
+	<div class="flex px-5">
+    <div class="h-32 w-32 flex itmes-center justify-center" style="color:blue">
+      <img src="<?php bloginfo('template_directory') ?>/img/user-md-chat-light.svg" >
+    </div>
+    <div class="mb-5">
+      <div class="text-white text-4xl mb-5">Telemedicine consultation</div>
+      <div>*Available for new patients as well</div>
+    </div>
 	</div>
+
+  <button class="bg-brand p-1 text-white w-48 mx-auto mt-10 mb-10" style="border-radius:30px; font-size:32px">
+		03
+	</button>
+	<div class="flex px-5">
+    <div class="h-32 w-32 flex itmes-center justify-center" style="color:blue">
+      <img src="<?php bloginfo('template_directory') ?>/img/notes-medical-light.svg" >
+    </div>
+    <div class="mb-5">
+      <div class="text-white text-4xl mb-5">Request for the 2nd opinion</div>
+      <div>*Available for new patients as well</div>
+    </div>
+	</div>
+  <!-- Button (start) -->
+	<button class="bg-white p-10 text-blue-500 w-56 mx-auto mt-10 mb-10" style="border-radius:10px; font-size:18px">
+    Inquiry
+	</button>
+	<!-- Button (end) -->
 
 	<!-- Content (end) -->
 </section>
 <!-- Section 3-1 (end) -->
+<!-- Section 3-2 (start) -->
+<div class="mt-20 px-5">
+  <div class="text-4xl">
+    Himedi recommends remedies and best doctors for you.
+  </div>
+  <div class="text-blue-500 text-bold mt-20 text-2xl">
+  STEP 01
+  </div>
+</div>
+<!-- Section 3-2 (end) -->
 <!-- Section 4 (start) -->
 <section class="items-center pt-40">
 
