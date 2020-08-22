@@ -17,7 +17,7 @@
         <!-- Main slider (start) -->
         <div class="swiper-container">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper mt-12">
+            <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
 					        <img src="<?php bloginfo('template_directory') ?>/img/Bild2.jpg" width="632px" height="348px" alt="">
