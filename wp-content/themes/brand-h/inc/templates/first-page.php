@@ -11,11 +11,13 @@
 <style>
 @media only screen and (max-width: 600px) {
 .object-fit-slide img {
-	width:400px!important;
-	height:350px!important;
+	width:450px!important;
+	height:375px!important;
 	object-fit:cover;
   }
 }
+
+
 </style>
 <article id="post-<?php the_ID();?>" <?php post_class();?>>
  <!-- Section 1 (start) -->
@@ -49,29 +51,29 @@
         <!-- Main slider (end) -->
     
         <!-- Content (start) -->
-        <div class="mt-32 mb-24 p-10">
-            <h2 class="font-bold">
-                Just send us your medical records. You do not need to come to Korea.
+        <div class="lg:mt-32 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
+            <h2 class="font-bold text-center font-size-24 font-roboto " style="font-size:22px">
+				Himedi meets doctors of first-class hospitals in Korea on behalf of you.
             </h2>
-            <p class="text-4xl pt-12 text-gray-600">
-                We lead you to world-best medical staff and medical remedies
+            <p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto" style="font-size:20px">
+				We lead you to world-best medical staff and best remedies.
             </p>
         </div>
         <!-- Content (end) -->
     
         <!-- Arrow icon (start) -->
 		
-        <img class="mx-auto pt-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+        <img class="mx-auto lg:pt-40 pt-10 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
         <!-- Arrow icon (end) -->
     
     </section>
     <!-- Section 1 (end) -->
 	<!-- Section1-1 (start) -->
 	  <!-- Content (start) -->
-	  <div class="flex">
+	  <div class="flex mt-40">
 	  <img src="<?php bloginfo('template_directory') ?>/img/section1-1.jpg" width="632px" height="348px" alt="">
 	  </div>
-	  <div class="mt-32 mb-24 p-10">
+	  <div class="mb-24 p-10">
             <h2 class="font-bold">
 				Just send us your medical records. You do not need to come to Korea.
             </h2>
@@ -85,7 +87,7 @@
 <section class="mt-20 w-full text-center">
 	<!-- Chart (start) -->
 	<div class="chartsWrap bg-gray-100 text-justify">
-		<div class="chart0 active p-10">
+		<div class="chart0 active lg:p-10 p-0">
 			<p class="text-3xl font-bold">
 				The survival rate of patients with one of the 5 major cancers compared to that in the U.S.
 			</p>

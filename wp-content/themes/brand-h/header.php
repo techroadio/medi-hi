@@ -23,7 +23,14 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--End tailwind-->
-	
+	<!--Begin OG-->
+	<meta property="og:title" content="Himedi">
+	<meta property="og:site_name" content="Himedi">
+	<meta property="og:url" content="https://www.himedi.io">
+	<meta property="og:description" content="Himedi meets doctors of first-class hospitals in Korea on behalf of you. We lead you to world-best medical staff and best remedies.">
+	<meta property="og:type" content="business.business">
+	<meta property="og:image" content="http://medi.techroad.io/wp-content/themes/brand-h/img/Bild3.jpg">
+	<!--End OG -->
 	<?php if (is_singular() && pings_open(get_queried_object())) : ?>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<?php endif; ?>
@@ -122,7 +129,7 @@
 						We give sincere answers to any question for patients’ recovery.
 					</div>
 					<div class="flex justify-center">
-						<a href src="/inquiry" class="">
+						<a href="/inquiry" class="">
 							<button class="text-white py-5 px-20 mx-auto rounded-lg mb-20" style="background-color:#2681F3">
 								Inquiry
 							</button>	
@@ -202,22 +209,27 @@
 	
 	<div class="sidebar-overlay js-toggleSidebar"></div>
 	
-	<div class="container-fluid">
+	<div class="container-fluid mb-1">
 		
 		<div class="row">
 				
 			<header class="header-container background-image text-center lg:h-48 h-16" style="background-image: url(<?php header_image(); ?>);height:60px">
 				
-				<a class="js-toggleSidebar sidebar-open lg:mt-4 mt-5">
-					<span class="sunset-icon sunset-menu lg:text-2xl text-2xl" style="color:#333333"></span>
+				<a class="js-toggleSidebar sidebar-open lg:mt-4 mt-0">
+					<!-- <span class="sunset-icon sunset-menu lg:text-2xl text-2xl" style="color:#333333"></span> -->
+					<img src="<?php echo get_template_directory_uri(); ?>/img/menu-black.png" class="h-10"/>
 				</a>
 				
 				<!-- logo -->
 				<div class="header-content table">
-					<div class="table-cell" style="vertical-align:top;padding-top:20px">
+					<div class="table-cell" style="vertical-align:top;padding-top:10px">
 						<h1 class="site-title sunset-icon justify-center flex">
 							<!-- <span class="sunset-logo"></span> -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="lg:w-4/12 w-6/12 mt-2 lg:mt-0"/>
+							<a href="/">
+								<div>
+									<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="lg:w-4/12 w-6/12 mt-2 lg:mt-0 mx-auto"/>
+								</div>
+							</a>
 							<span class="hide"><?php bloginfo( 'name' ); ?></span>
 						</h1>
 						<!-- <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
