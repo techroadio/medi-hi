@@ -1062,6 +1062,22 @@ a.comment-reply-link {
   right: 20px;
   top: 15px;
   font-size: 10px; }
+  
+  @media only screen and (min-width: 635px) {
+    .sidebar-open {
+      
+      top: 8px;
+       }
+    .br-show {
+      display:block;
+    }  
+    
+  }
+  
+  .br-hidden{
+    display:none;
+  }
+  
 
 /* 
 	Widgets section

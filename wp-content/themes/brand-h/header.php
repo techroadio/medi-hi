@@ -227,7 +227,7 @@
 							<!-- <span class="sunset-logo"></span> -->
 							<a href="/">
 								<div>
-									<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="lg:w-4/12 w-6/12 mt-2 lg:mt-0 mx-auto"/>
+									<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="lg:w-4/12 w-6/12 mt-2 lg:mt-2 mx-auto"/>
 								</div>
 							</a>
 							<span class="hide"><?php bloginfo( 'name' ); ?></span>

@@ -52,11 +52,11 @@
     
         <!-- Content (start) -->
         <div class="lg:mt-32 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
-            <h2 class="font-bold text-center font-size-24 font-roboto " style="font-size:22px">
-				Himedi meets doctors of first-class hospitals in Korea on behalf of you.
+            <h2 class="font-bold text-center font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+				Himedi meets doctors of first-class hospitals in Korea <br class="br-hidden br-show">on behalf of you.
             </h2>
-            <p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto" style="font-size:20px">
-				We lead you to world-best medical staff and best remedies.
+            <p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
+				We lead you to world-best medical staff<br class="br-hidden br-show"> and best remedies.
             </p>
         </div>
         <!-- Content (end) -->
