@@ -8,7 +8,15 @@
 */
 
 ?>
-
+<style>
+@media only screen and (max-width: 600px) {
+.object-fit-slide img {
+	width:400px!important;
+	height:350px!important;
+	object-fit:cover;
+  }
+}
+</style>
 <article id="post-<?php the_ID();
 					?>" <?php post_class();
 						?>>
@@ -19,14 +27,14 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">
-					        <img src="<?php bloginfo('template_directory') ?>/img/Bild2.jpg" width="632px" height="348px" alt="">
+                <div class="swiper-slide object-fit-slide">
+					        <img src="<?php bloginfo('template_directory') ?>/img/Bild2.jpg" alt="" >
                 </div>
-                <div class="swiper-slide">
-				          <img src="<?php bloginfo('template_directory') ?>/img/Bild3.jpg" width="632px" height="348px" alt="">
+                <div class="swiper-slide object-fit-slide">
+				          <img src="<?php bloginfo('template_directory') ?>/img/Bild3.jpg" >
                 </div>
-                <div class="swiper-slide">
-				          <img src="<?php bloginfo('template_directory') ?>/img/Bild4.jpg" width="632px" height="348px" alt="">
+                <div class="swiper-slide object-fit-slide">
+				          <img src="<?php bloginfo('template_directory') ?>/img/Bild4.jpg">
                 </div>
                 <!-- ... (use in case of pagination) -->
             </div>
@@ -272,18 +280,18 @@
   If you would like to receive the second opinion or deputy consultation from the recommended doctors, please share more detailed medical records.
   </div>
   <!-- Main slider (start) -->
-  <div class="swiper-container" style="height:500px">
+  <div class="swiper-container" style="height:380px">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper mt-12">
           <!-- Slides -->
-          <div class="swiper-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-1.jpg" width="632px" height="348px" alt="">
+          <div class="swiper-slide object-fit-slide">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-1.jpg" alt="">
           </div>
-          <div class="swiper-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-2.jpg" width="632px" height="348px" alt="">
+          <div class="swiper-slide object-fit-slide">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-2.jpg" alt="" >
           </div>
-          <div class="swiper-slide">
-            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-3.jpg" width="632px" height="348px" alt="">
+          <div class="swiper-slide object-fit-slide">
+            <img src="<?php bloginfo('template_directory') ?>/img/section3-2-3.jpg" alt="">
           </div>
           <!-- ... (use in case of pagination) -->
       </div>
