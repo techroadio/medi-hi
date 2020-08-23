@@ -9,14 +9,26 @@
 
 ?>
 <style>
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) { /* mobile */
 .object-fit-slide img {
 	width:450px!important;
 	height:375px!important;
 	object-fit:cover;
   }
+.br-hidden{
+	display:none;
+  }	
 }
 
+@media only screen and (min-width: 635px) { /* desktop */
+    .sidebar-open {  
+      top: 8px;
+       }      
+	   .object-fit-slide img {
+	width:635px!important;
+	object-fit:cover;
+  }
+}
 
 </style>
 <article id="post-<?php the_ID();?>" <?php post_class();?>>
@@ -51,19 +63,19 @@
         <!-- Main slider (end) -->
     
         <!-- Content (start) -->
-        <div class="lg:mt-32 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
+        <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
             <h2 class="font-bold text-center font-size-24 font-roboto leading-relaxed " style="font-size:22px">
-				Himedi meets doctors of first-class hospitals in Korea <br class="br-hidden br-show">on behalf of you.
+				Himedi meets doctors of first-class hospitals in Korea <br class="br-hidden">on behalf of you.
             </h2>
             <p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
-				We lead you to world-best medical staff<br class="br-hidden br-show"> and best remedies.
+				We lead you to world-best medical staff<br class="br-hidden"> and best remedies.
             </p>
         </div>
         <!-- Content (end) -->
     
         <!-- Arrow icon (start) -->
 		
-        <img class="mx-auto lg:pt-40 pt-10 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+        <img class="mx-auto lg:pt-0 pt-10 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
         <!-- Arrow icon (end) -->
     
     </section>

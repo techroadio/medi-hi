@@ -1063,21 +1063,21 @@ a.comment-reply-link {
   top: 15px;
   font-size: 10px; }
   
-  @media only screen and (min-width: 635px) {
+  @media only screen and (min-width: 635px) { /* desktop */
     .sidebar-open {
       
       top: 8px;
        }
-    .br-show {
-      display:block;
-    }  
+      
     
   }
-  
-  .br-hidden{
-    display:none;
+
+  @media only screen and (max-width: 600px) { /* mobile */
+    
+    .br-hidden{
+      display:none;
+    }
   }
-  
 
 /* 
 	Widgets section
