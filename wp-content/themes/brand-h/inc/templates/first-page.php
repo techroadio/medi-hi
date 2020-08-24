@@ -58,7 +58,7 @@
     <!-- Section 1 (end) -->
 	<!-- Section1-1 (start) -->
 	  <!-- Content (start) -->
-	  <div class="mt-40 w-full h-full">
+	  <div class="mt-40 w-full">
 	    <img src="<?php bloginfo('template_directory') ?>/img/section1-1.jpg" alt="">
 	  </div>
 	  <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
