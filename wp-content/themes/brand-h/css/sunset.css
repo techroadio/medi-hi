@@ -1236,6 +1236,11 @@ h2.sunset-widget-title {
   .content-step2{
     height:380px;
   }
+  .content-partners{
+    width:100%;
+    height:300px;
+    
+  }
 
 }
   
@@ -1253,6 +1258,10 @@ h2.sunset-widget-title {
     .content-step2{
       height:680px;
       object-fit:cover;
+    }
+    .content-partners{
+      width:600px;
+      height:400px;
     }
   }
   
