@@ -38,7 +38,6 @@
 	<style>
 		.swiper-container {
 			cursor: pointer;
-			min-height: 340px;
 		}
 
 		.swiper-scrollbar {
