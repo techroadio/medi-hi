@@ -126,7 +126,7 @@
 			<div class="sidebar-scroll">
 				
 				<div class="">
-					<div class="py-10 px-10 mt-16">
+					<div class="py-10 px-10 mt-10">
 						We give sincere answers to any question for patients’ recovery.
 					</div>
 					<div class="flex justify-center">
@@ -141,7 +141,7 @@
 							<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="user-nurse" class="svg-inline--fa fa-user-nurse fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M319.41,318,224,413.39,128.59,318C57.09,321.09,0,379.59,0,451.8A58.23,58.23,0,0,0,58.2,510H389.8A58.23,58.23,0,0,0,448,451.8C448,379.59,390.91,321.09,319.41,318ZM208,478H58.2A26.28,26.28,0,0,1,32,451.8c0-47.46,38-92.44,84.73-100.41L208,442.66Zm181.8,0H240V442.64l91.25-91.25C378,359.36,416,404.34,416,451.8A26.28,26.28,0,0,1,389.8,478ZM224,302A128,128,0,0,0,352,174V63.82a32,32,0,0,0-20.76-30L246.47,2.07a64.06,64.06,0,0,0-44.94,0L116.76,33.86A32,32,0,0,0,96,63.82V174A128,128,0,0,0,224,302ZM128,63.82,212.77,32a32,32,0,0,1,22.47,0L320,63.82V142H128ZM320,174a96,96,0,0,1-192,0ZM259,72.67H237.33V51a5,5,0,0,0-5-5H215.67a5,5,0,0,0-5,5V72.67H189a5,5,0,0,0-5,5V94.33a5,5,0,0,0,5,5h21.67V121a5,5,0,0,0,5,5h16.66a5,5,0,0,0,5-5V99.33H259a5,5,0,0,0,5-5V77.67A5,5,0,0,0,259,72.67Z"></path></svg>
 						</div>
 						<a href="/how-to-use" class="text-black"> 
-							<div class="text-black">
+							<div class="text-black ml-1">
 								How to utilize Himedi with Doctors
 							</div>
 						</a>
@@ -151,7 +151,7 @@
 							<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="hospital-alt" class="svg-inline--fa fa-hospital-alt fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M468 384h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12zm0-128h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12zM308 384h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12zm0-128h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12zM148 384h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12zm0-128h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12zm182-144h-26V86c0-3.3-2.7-6-6-6h-20c-3.3 0-6 2.7-6 6v26h-26c-3.3 0-6 2.7-6 6v20c0 3.3 2.7 6 6 6h26v26c0 3.3 2.7 6 6 6h20c3.3 0 6-2.7 6-6v-26h26c3.3 0 6-2.7 6-6v-20c0-3.3-2.7-6-6-6zm198 16H416V48c0-26.5-21.5-48-48-48H208c-26.5 0-48 21.5-48 48v80H48c-26.5 0-48 21.5-48 48v328c0 4.4 3.6 8 8 8h16c4.4 0 8-3.6 8-8V176c0-8.8 7.2-16 16-16h144V48c0-8.8 7.2-16 16-16h160c8.8 0 16 7.2 16 16v112h144c8.8 0 16 7.2 16 16v328c0 4.4 3.6 8 8 8h16c4.4 0 8-3.6 8-8V176c0-26.5-21.5-48-48-48z"></path></svg>
 						</div>
 						<a href="/affiliate" class="text-black"> 
-							<div class="text-black">
+							<div class="text-black ml-1">
 								Check partner hospitals
 							</div>
 						</a>
@@ -171,7 +171,7 @@
 							<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="notes-medical" class="svg-inline--fa fa-notes-medical fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M336 64h-88.6c.4-2.6.6-5.3.6-8 0-30.9-25.1-56-56-56s-56 25.1-56 56c0 2.7.2 5.4.6 8H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM192 32c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24zm160 432c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16h48v20c0 6.6 5.4 12 12 12h168c6.6 0 12-5.4 12-12V96h48c8.8 0 16 7.2 16 16v352zm-72-176h-56v-56c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v56h-56c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h56v56c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8v-56h56c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"></path></svg>
 						</div>
 						<a href="/success-cases" class="text-black"> 
-							<div class="text-black">
+							<div class="text-black ml-2">
 								Examples of 2nd diagnoses
 							</div>
 						</a>
@@ -182,13 +182,13 @@
 							<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="tasks" class="svg-inline--fa fa-tasks fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M145.35 207a8 8 0 0 0-11.35 0l-71 71-39-39a8 8 0 0 0-11.31 0L1.35 250.34a8 8 0 0 0 0 11.32l56 56a8 8 0 0 0 11.31 0l88-88a8 8 0 0 0 0-11.32zM62.93 384c-17.67 0-32.4 14.33-32.4 32s14.73 32 32.4 32a32 32 0 0 0 0-64zm82.42-337A8 8 0 0 0 134 47l-71 71-39-39a8 8 0 0 0-11.31 0L1.35 90.34a8 8 0 0 0 0 11.32l56 56a8 8 0 0 0 11.31 0l88-88a8 8 0 0 0 0-11.32zM503 400H199a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h304a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8zm0-320H199a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h304a8 8 0 0 0 8-8V88a8 8 0 0 0-8-8zm0 160H199a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h304a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8z"></path></svg>
 						</div>
 						<a href="/inquiry" class="text-black"> 
-							<div class="text-black">
+							<div class="text-black ml-2">
 								Inquiry
 							</div>
 						</a>
 					</div>
 
-					<a href="/about-us" class="text-black"> 
+					<a href="/about-us" class="text-black" style="color:black!important"> 
 						<div class="mt-12" >
 							<div style="position:relative">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/sidebar-1.jpg" style="position:absolute;top:0px">

@@ -285,7 +285,7 @@ body {
       width: 100%; } }
 
 a {
-  color: #000000;
+  color: currentColor;
   -webkit-transition: color 320ms ease;
   -moz-transition: color 320ms ease;
   -ms-transition: color 320ms ease;
@@ -1241,7 +1241,9 @@ h2.sunset-widget-title {
     height:300px;
     
   }
-
+  .content-check-hospital{
+    left:8%!important;
+  }
 }
   
   @media only screen and (min-width: 635px) { /* desktop */
@@ -1262,6 +1264,9 @@ h2.sunset-widget-title {
     .content-partners{
       width:600px;
       height:400px;
+    }
+    .content-check-hospital{
+      left:23%!important;
     }
   }
   

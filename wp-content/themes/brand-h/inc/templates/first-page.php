@@ -129,8 +129,8 @@
 
 	<!-- Chart Trigger (start) -->
 	<div class="lg:pt-32 pt-10 flex justify-between px-10 py-10">
-		<button class="chartTrig0 border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button>
-		<button class="chartTrig1 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button>
+		<button class="chartTrig0 border-2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 mr-3 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">5 major cancers compared to that in the U.S.</button>
+		<button class="chartTrig1 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg mr-3 leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">No. of hospitals per a thousand people among OECD countries</button>
 		<button class="chartTrig2 border-dashed border-blue-500 shadow-md focus:outline-none outline-none rounded-full p-5 text-lg leading-tight" style="width: 10em; height:10em; text-shadow: 0px 2px 5px #777">Korea’s medical service boasts a world-class level.</button>
 	</div>
 	<!-- Chart Trigger (end) -->
@@ -182,9 +182,11 @@
 	<!-- Sponsor (end) -->
 
 	<!-- Button (start) -->
-	<button class="bg-brand text-white lg:w-1/2 w-12/12 mx-auto px-5 py-5 lg:px-0 mt-10 text-xs" style="border-radius:10px; font-size:18px">
+	<a href="/interview/">
+    <button class="bg-brand text-white lg:w-1/2 w-12/12 mx-auto px-5 py-5 lg:px-0 mt-10 text-xs" style="border-radius:10px; font-size:18px">
 		Check Success Story
-	</button>
+	  </button>
+  </a>
 	<!-- Button (end) -->
 
 </section>
@@ -250,9 +252,11 @@
   <div class="flex justify-center">
   
     <!-- <button class="bg-white px-5 py-5 text-blue-500 w-56 mx-auto mt-10 mb-24" style="border-radius:10px; font-size:18px"> -->
-	<button class="bg-white text-blue-500 text-white text-white lg:w-1/2 w-5/12 mx-auto px-5 py-5 mb-40 lg:px-0 mt-10 text-xs" style="border-radius:10px; font-size:18px">
+	<a href="/inquiry" class="w-full">
+    <button class="bg-white text-blue-500 text-white text-white lg:w-1/2 w-5/12 mx-auto px-5 py-5 mb-40 lg:px-0 mt-10 text-xs" style="border-radius:10px; font-size:18px">
       Inquiry
     </button>
+  </a>
   </div>
 	<!-- Button (end) -->
 
@@ -267,7 +271,7 @@
   <h2 class="font-bold text-center px-6 font-size-24 font-roboto leading-relaxed " style="font-size:22px">
     Himedi recommends remedies and best doctors for you.
   </div>
-  <div class="text-blue-500 text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed">
+  <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed" style="color:#2681F3">
     STEP 01
   </div>
   <div class="text-bold font-bold text-left px-6 font-size-24 font-roboto leading-none">
@@ -276,17 +280,26 @@
   <p class="px-6 lg:pt-24 pt-0 font-roboto leading-none mt-3" style="font-size:20px">
     Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you.
   </div>
-  <div>
-    <img class="mx-auto mb-24 mt-5" src="<?php bloginfo('template_directory') ?>/img/section3-2-phone.png" width="346px" height="346px" alt="">
+  <!-- <div style="height:500px"> #safari issue
+    <div class="relative content-check-hospital">
+      <img class="mx-auto mb-24 mt-5 absolute" src="<?php bloginfo('template_directory') ?>/img/section3-2-phone.png" width="346px" height="346px" alt="">
+      <img class="absolute" src="<?php bloginfo('template_directory') ?>/img/inquiry.png" style="height:240px;top:90px;left:108px">
+    </div>
+  </div> -->
+  <div style="height:500px">
+    <div class="relative ">
+      <img class="mx-auto mb-24 mt-5" src="<?php bloginfo('template_directory') ?>/img/himedi-inquiry-screen.png" width="346px" height="346px" alt="">      
+    </div>
   </div>
+
   <!-- Button (start) -->
   <div class="flex justify-center">
     <button class="bg-brand px-5 py-5 text-white w-6/12 lg:w-4/12 mx-auto mt-10 mb-20 font-roboto font-size-24" style="border-radius:10px;">
-      Check hospitals
+      <a href style="color:white!important;">Check hospitals</a>
     </button>
   </div>
 	<!-- Button (end) -->
-	<div class="text-blue-500 text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed">
+	<div class="text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed" style="color:#2681F3">
     STEP 02
   </div>
   <div class="text-bold font-bold text-left px-6 font-size-24 font-roboto leading-none">
@@ -319,7 +332,7 @@
       <div class="swiper-scrollbar"></div>
   </div>
   <!-- Main slider (end) -->
-  <div class="text-blue-500 text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed">
+  <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed" style="color:#2681F3">
     STEP 03
   </div>
   <div class="text-bold font-bold text-left px-6 font-size-24 font-roboto leading-none">
@@ -332,7 +345,7 @@
   <div class="flex justify-center mt-24">
 	<!-- <button class="bg-brand px-5 py-5 text-white mx-auto mt-10" style="border-radius:10px; font-size:18px"> -->
 	<button class="bg-brand px-5 py-5 text-white w-9/12 lg:w-6/12 mx-auto mt-10 mb-20 font-roboto font-size-24" style="border-radius:10px;">
-      Check medical diagnoses
+      <a href="/success-cases" style="color:white">Check medical diagnoses</a>
     </button>
   </div>
 	  <!-- Button (end) -->
@@ -344,11 +357,12 @@
     <p class="pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
       Do you have difficulty in inquiring? <br>We give sincere answers to any question for patients’ recovery.
     </div>
-    <div class="text-blue-500 text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed">
+    <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed" style="color:#2681F3">
       Start consultation
     </div>
     <div>
-      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/section3-2-phone.png" width="346px" height="346px" alt="">
+      <!-- <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/section3-2-phone.png" width="346px" height="346px" alt=""> -->
+      <img class="mx-auto mb-24 mt-10" src="<?php bloginfo('template_directory') ?>/img/himedi-whatsapp.png" width="346px" height="346px" alt="himedi-whatsapp">
     </div>
   </div>
   <!-- <div class="px-10"> 
@@ -381,18 +395,14 @@
     </div>
     <!-- Button (start) -->
     <div class="flex justify-center my-24 mb-32">
-      <button class="border border-blue-500 rounded-full px-5 py-5 w-8/12 mx-auto mt-10 text-blue-500 text-3xl">
-        Himedi Story
+      <button class="border rounded-full px-5 py-5 w-8/12 mx-auto mt-10 text-blue-500 text-3xl">
+        <a href="/about-us" class="" style="color:#2681F3:border-color:#2681F3">Himedi Story</a>
       </button>
     </div>
 	  <!-- Button (end) -->
     
   </div>
 <!-- Section 3-2 (end) -->
-
-
-
-
 	<!--.entry-content-->
 
 </article>
