@@ -402,7 +402,10 @@
 	  <!-- Button (end) -->
     
   </div>
-<!-- Section 3-2 (end) -->
+
+  <!-- Section 3-2 (end) -->
 	<!--.entry-content-->
+
+
 
 </article>
