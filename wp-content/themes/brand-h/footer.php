@@ -137,9 +137,10 @@
 
 	function myFunction2(){
 		
-		const popUpBgElement = document.getElementById("pop_up_bg2");
+		const popUpBgElement = document.getElementById("pop_up_bg");
+		const cancelBtn = document.getElementById("popup_cancel_btn");
+
 		const popUpElement = document.getElementById("popup2");
-		const cancelBtn = document.getElementById("popup_cancel_btn2");
 		const button = document.getElementById("click_me_btn2");
 		let isPopUpShowing = false;
 	
@@ -159,14 +160,15 @@
 		//** Events */
 		button.addEventListener('click', popUpHandeler);
 		cancelBtn.addEventListener('click', popUpHandeler);
-		}
+	}	
 
-		function myFunction3(){
+	function myFunction3(){
 		
 		const popUpBgElement = document.getElementById("pop_up_bg");
-		const popUpElement = document.getElementById("popup");
 		const cancelBtn = document.getElementById("popup_cancel_btn");
-		const button = document.getElementById("click_me_btn");
+
+		const popUpElement = document.getElementById("popup3");
+		const button = document.getElementById("click_me_btn3");
 		let isPopUpShowing = false;
 	
 		const popUpHandeler = ()=>{
@@ -185,7 +187,36 @@
 		//** Events */
 		button.addEventListener('click', popUpHandeler);
 		cancelBtn.addEventListener('click', popUpHandeler);
+	}	
+
+	function myFunction4(){
+		
+		const popUpBgElement = document.getElementById("pop_up_bg");
+		const cancelBtn = document.getElementById("popup_cancel_btn");
+
+		const popUpElement = document.getElementById("popup4");
+		const button = document.getElementById("click_me_btn4");
+		let isPopUpShowing = false;
+	
+		const popUpHandeler = ()=>{
+			isPopUpShowing = !isPopUpShowing;
+			if(isPopUpShowing){
+				popUpBgElement.classList.remove("hidden");
+				popUpElement.classList.remove("hidden");
+				cancelBtn.classList.remove("hidden");
+			}else{
+				popUpBgElement.classList.add("hidden");
+				popUpElement.classList.add("hidden");
+				cancelBtn.classList.add("hidden");
+			}
 		}
+	
+		//** Events */
+		button.addEventListener('click', popUpHandeler);
+		cancelBtn.addEventListener('click', popUpHandeler);
+	}	
+
+
 
 
 
