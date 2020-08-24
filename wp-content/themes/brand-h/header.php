@@ -64,7 +64,8 @@
 			height: 500px;
 			background-image: url("<?php bloginfo('template_directory') ?>/img/endCont.jpg");
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: contain;
+			
 		}
 
 		.overlay {
