@@ -114,12 +114,12 @@ Surgery: Interbody fusion, C-spine or L-spine, Posterior fusion, Total Knee Repl
 
 
   <div>
-    <img class="mx-auto mb-24 lg:h-32 h-16 lg:w-16 w-16" src="<?php bloginfo('template_directory') ?>/img/hospital-alt-light.svg" >
+    <img class="mx-auto mb-24 mt-5 lg:h-24 h-24 w-24 lg:w-24"  src="<?php bloginfo('template_directory') ?>/img/hospital-alt-light.svg" >
   </div>
   <div class="w-full mb-32 ">
-    <div class="mt-20 text-5xl font-bold text-center">
-      Check out Korea’s best medical staff.
-    </div>
+    <h2 class="font-bold text-center px-6 font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+      Check out Korea’s <br class="lg:hidden">best medical staff.
+    </h2>
   </div>
   <!-- logo --> 
   <div class="mt-20 ">
