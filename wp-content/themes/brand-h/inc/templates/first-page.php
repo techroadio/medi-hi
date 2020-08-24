@@ -58,8 +58,8 @@
     <!-- Section 1 (end) -->
 	<!-- Section1-1 (start) -->
 	  <!-- Content (start) -->
-	  <div class="flex mt-40">
-	  <img src="<?php bloginfo('template_directory') ?>/img/section1-1.jpg" width="632px" height="348px" alt="">
+	  <div class="mt-40 w-full h-full">
+	    <img src="<?php bloginfo('template_directory') ?>/img/section1-1.jpg" alt="">
 	  </div>
 	  <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
 	  	<h2 class="font-bold font-size-24 font-roboto leading-relaxed " style="font-size:22px">
