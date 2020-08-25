@@ -61,9 +61,20 @@
         </div>
     </div>
 
+    <!-- <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
+    <div id="main_pop_up" class="w-full absolute top-0 hidden" 
+        style="height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png);background-repeat: no-repeat;background-size:cover;top:50%; transform: translateY(-50%);">
+        <div>
+            asdasd
+        </div>
+    </div> -->
+
     <div id="pop_up_bg" class="absolute w-screen h-screen top-0 right-0 hidden" style="background-color: rgba(0, 0, 0, 0.6);"></div>
-    <div id="main_pop_up" class="w-full absolute top-0 hidden" style="height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png\);background-repeat: no-repeat;background-size:cover;top:50%; transform: translateY(-50%);">
-        <!-- PopUp Content goes here. -->
+    <div id="main_pop_up" class="w-full absolute top-0 hidden" 
+        style="height: 70vh; background-image: url(<?php bloginfo('template_directory') ?>/img/static/chart.png);background-repeat: no-repeat;background-size:cover;top:50%; transform: translateY(-50%);">
+        <div>
+            asdasd
+        </div>
     </div>
 
 </section>

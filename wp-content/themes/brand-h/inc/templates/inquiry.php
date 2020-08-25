@@ -1,27 +1,28 @@
 <!-- Section 4 (start) -->
-<section class="items-center pt-40">
+<section class="items-center pt-10">
 
   <!-- Icon (start) -->
-  <div class="w-full flex justify-center">
-  <svg class="w-20 h-20" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="tasks" class="svg-inline--fa fa-tasks fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M145.35 207a8 8 0 0 0-11.35 0l-71 71-39-39a8 8 0 0 0-11.31 0L1.35 250.34a8 8 0 0 0 0 11.32l56 56a8 8 0 0 0 11.31 0l88-88a8 8 0 0 0 0-11.32zM62.93 384c-17.67 0-32.4 14.33-32.4 32s14.73 32 32.4 32a32 32 0 0 0 0-64zm82.42-337A8 8 0 0 0 134 47l-71 71-39-39a8 8 0 0 0-11.31 0L1.35 90.34a8 8 0 0 0 0 11.32l56 56a8 8 0 0 0 11.31 0l88-88a8 8 0 0 0 0-11.32zM503 400H199a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h304a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8zm0-320H199a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h304a8 8 0 0 0 8-8V88a8 8 0 0 0-8-8zm0 160H199a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h304a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8z"></path></svg>
+  <div class="mx-auto mb-10 mt-5 lg:h-24 h-24 w-24 lg:w-24"> 
+    <svg class="w-20 h-20" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="tasks" class="svg-inline--fa fa-tasks fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M145.35 207a8 8 0 0 0-11.35 0l-71 71-39-39a8 8 0 0 0-11.31 0L1.35 250.34a8 8 0 0 0 0 11.32l56 56a8 8 0 0 0 11.31 0l88-88a8 8 0 0 0 0-11.32zM62.93 384c-17.67 0-32.4 14.33-32.4 32s14.73 32 32.4 32a32 32 0 0 0 0-64zm82.42-337A8 8 0 0 0 134 47l-71 71-39-39a8 8 0 0 0-11.31 0L1.35 90.34a8 8 0 0 0 0 11.32l56 56a8 8 0 0 0 11.31 0l88-88a8 8 0 0 0 0-11.32zM503 400H199a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h304a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8zm0-320H199a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h304a8 8 0 0 0 8-8V88a8 8 0 0 0-8-8zm0 160H199a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h304a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8z"></path></svg>
   </div>
 	<!-- Icon (end) -->
 
 	<!-- Content (start) -->
-	<h3 class="text-center p-10">
+	<h2 class="font-bold text-left px-4 font-size-24 font-roboto leading-none text-gray-700" style="font-size:22px">
     Please leave your contact information and inquiry. An answer will be given within 24 hours.
-	</h3>
-	<p class="text-center text-4xl text-blue-500 p-10">
+  </h3>
+  <p class="text-bold mt-5 font-bold text-left px-6 font-roboto leading-none" style="color:#2681F3;font-size:18px">
+	
 		* If you have an urget inquiry please leave it via WhatsApp.
 	</p>
 	<!-- Content (end) -->
 
 	<!-- Divider (start) -->
-	<div class="divider mx-auto w-1/3 h-1 bg-gray-500"></div>
+	<div class="divider mx-auto w-1/3 h-1 bg-gray-500 mt-16"></div>
 	<!-- Divider (end) -->
 
 	<!-- Form (start) -->
-	<form class="w-full mt-20 text-3xl p-16">
+	<form class="w-full lg:mt-5 mt-20 lg:text-3xl text-lg lg:p-16 px-3">
 		<div class="flex items-center mb-10">
 			<div class="w-1/3">
 				<label class="block font-bold mb-1 mb-0 pr-4" for="inline-full-name">
@@ -303,22 +304,22 @@
 			</div>
 		</div>
 		<div class="flex items-center mb-10">
-			<div class="w-1/3">
+			<div class="w-5/12">
 				<label class="block font-bold mb-1 mb-0 pr-4">
-					<img class="inline pr-2" src="<?php bloginfo('template_directory') ?>/img/check.svg" alt="">
+					<img class="inline lg:pr-2 pr-2" src="<?php bloginfo('template_directory') ?>/img/check.svg" alt="">
 					Medical Report: <span class="text-red-500">*</span>
 				</label>
 			</div>
-			<div class="w-2/3 flex justify-between">
-				<label class="inline font-bold px-5">
-					<input class="mr-2" name="mediReport" type="radio" required>
-					<span class="text-2xl">
+			<div class="w-7/12 flex justify-between items-center">
+				<label class="inline font-bold lg:px-5 px-2 flex items-center">
+					<input class="mr-4 " name="mediReport" type="radio" required>
+					<span class="lg:text-2xl text-lg ml-4">
 						Applicable
 					</span>
 				</label>
-				<label class="inline font-bold">
+				<label class="inline font-bold lg:px-5 px-2 flex items-center">
 					<input class="mr-2" name="mediReport" type="radio">
-					<span class="text-2xl">
+					<span class="lg:text-2xl text-lg ml-4">
 						Not Applicable
 					</span>
 				</label>
@@ -331,24 +332,26 @@
 					Major questions to doctors: <span class="text-red-500">*</span>
 				</label>
 			</div>
-			<div class="w-full p-10">
+			<div class="w-full lg:p-10 px-3 pt-3">
 				<textarea class="border border-gray-500 w-full" rows="10"></textarea>
 			</div>
 		</div>
 		<div class="items-center mb-10">
-			<div class="w-full">
+			<div class="w-full leading-none">
 				<label class="block font-bold mb-1 mb-0 pr-4">
-					<img class="inline pr-2" src="<?php bloginfo('template_directory') ?>/img/check.svg" alt="">
-					Is there any aspect regarding the patient that Doctors need to take note of? <span class="text-red-500">*</span>
+          <div class="flex">
+            <img class="inline pr-2" src="<?php bloginfo('template_directory') ?>/img/check.svg" alt="">
+            <div>Is there any aspect regarding the patient that Doctors need to take note of? <span class="text-red-500">*</span></div>
+          </div>
 				</label>
 			</div>
-			<div class="w-full p-10">
+			<div class="w-full lg:p-10 px-3 pt-5">
 				<textarea class="border border-gray-500 w-full" rows="10"></textarea>
 			</div>
 		</div>
 
 		<!-- Consent (start) -->
-		<div class="text-right p-10">
+		<div class="text-right lg:p-10 pt:16 px-3">
 			<span>Consent to collect personal data</span>
 			<input type="checkbox">
 		</div>
@@ -356,7 +359,7 @@
 
 		<div class="flex items-center text-center">
 			<div class="w-full">
-				<button class="applyBtn bg-brand p-10 text-white w-1/2 mx-auto mt-10">
+				<button class="applyBtn bg-brand lg:p-10 py-3 text-white lg:w-1/2 w-7/12 mx-auto mt-10">
 					Apply
 				</button>
 			</div>
