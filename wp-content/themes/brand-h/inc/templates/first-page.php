@@ -145,7 +145,7 @@
 	<!-- Chart Text (end) -->
 
 	<!-- Arrow icon (start) -->
-	<img class="mx-auto lg:pt-10 pt-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+	<img class="mx-auto lg:pt-10 pt-32 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
 	<!-- Arrow icon (end) -->		
 </section>
 <!-- Section 2 (end) -->

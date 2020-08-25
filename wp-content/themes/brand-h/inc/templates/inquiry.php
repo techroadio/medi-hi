@@ -340,7 +340,7 @@
 			<div class="w-full leading-none">
 				<label class="block font-bold mb-1 mb-0 pr-4">
           <div class="flex">
-            <img class="inline pr-2" src="<?php bloginfo('template_directory') ?>/img/check.svg" alt="">
+            <img class="inline pr-4" src="<?php bloginfo('template_directory') ?>/img/check.svg" alt="">
             <div>Is there any aspect regarding the patient that Doctors need to take note of? <span class="text-red-500">*</span></div>
           </div>
 				</label>
@@ -359,7 +359,7 @@
 
 		<div class="flex items-center text-center">
 			<div class="w-full">
-				<button class="applyBtn bg-brand lg:p-10 py-3 text-white lg:w-1/2 w-7/12 mx-auto mt-10">
+				<button class="applyBtn bg-brand lg:py-5 py-3 text-white lg:w-1/2 w-7/12 mx-auto mt-10">
 					Apply
 				</button>
 			</div>

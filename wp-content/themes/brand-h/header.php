@@ -81,7 +81,8 @@
 		}
 
 		.applyBtn:hover:after {
-			content: '>';
+			content: ' >';
+			word-spacong: 30px;
 		}
 
 		.arrowAnimate {
@@ -131,7 +132,7 @@
 					</div>
 					<div class="flex justify-center">
 						<a href="/inquiry" class="">
-							<button class="text-white py-5 px-20 mx-auto rounded-lg mb-20" style="background-color:#2681F3">
+							<button class="text-white py-5 px-20 mx-auto rounded-lg mb-20 hover:bg-blue-500" style="background-color:#2681F3">
 								Inquiry
 							</button>	
 						</a>
