@@ -333,7 +333,7 @@
 				</label>
 			</div>
 			<div class="w-full lg:p-10 px-3 pt-3">
-				<textarea class="border border-gray-500 w-full" rows="10"></textarea>
+				<textarea class="border border-gray-500 w-full" rows="4"></textarea>
 			</div>
 		</div>
 		<div class="items-center mb-10">
@@ -346,7 +346,7 @@
 				</label>
 			</div>
 			<div class="w-full lg:p-10 px-3 pt-5">
-				<textarea class="border border-gray-500 w-full" rows="10"></textarea>
+				<textarea class="border border-gray-500 w-full" rows="4"></textarea>
 			</div>
 		</div>
 
