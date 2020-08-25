@@ -1,5 +1,7 @@
 <!-- Section 3-6 (start) -->
-
+<div class="hidden">
+you can not see this because it is hidden 
+</div>
 <div class="flex flex-wrap">
 
 	<div class="flex flex-wrap relative">
