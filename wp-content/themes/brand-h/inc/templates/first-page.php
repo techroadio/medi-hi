@@ -145,7 +145,7 @@
 	<!-- Chart Text (end) -->
 
 	<!-- Arrow icon (start) -->
-	<img class="mx-auto lg:pt-0 pt-10 mb-40 lg:mb-0 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
+	<img class="mx-auto lg:pt-10 pt-30 lg:mt-20 mb-40 lg:mb-40 arrowAnimate" src="<?php bloginfo('template_directory') ?>/img/arrow.png" alt="arrow icon">
 	<!-- Arrow icon (end) -->		
 </section>
 <!-- Section 2 (end) -->
@@ -183,7 +183,7 @@
 
 	<!-- Button (start) -->
 	<a href="/interview/">
-    <button class="bg-brand text-white lg:w-1/2 w-12/12 mx-auto px-5 py-5 lg:px-0 mt-10 text-xs" style="border-radius:10px; font-size:18px">
+    <button class="hover:bg-blue-500 bg-brand text-white lg:w-1/2 w-12/12 mx-auto px-5 py-5 lg:px-0 mt-10 text-xs hover:bg-blue-500" style="border-radius:10px; font-size:18px">
 		Check Success Story
 	  </button>
   </a>
@@ -253,7 +253,7 @@
   
     <!-- <button class="bg-white px-5 py-5 text-blue-500 w-56 mx-auto mt-10 mb-24" style="border-radius:10px; font-size:18px"> -->
 	<a href="/inquiry" class="w-full">
-    <button class="bg-white text-blue-500 text-white text-white lg:w-1/2 w-5/12 mx-auto px-5 py-5 mb-40 lg:px-0 mt-10 text-xs" style="border-radius:10px; font-size:18px">
+    <button class="bg-white text-blue-500 text-white text-white lg:w-1/2 w-5/12 mx-auto px-5 py-5 mb-40 lg:px-0 mt-10 text-xs hover:bg-blue-500 hover:text-white" style="border-radius:10px; font-size:18px">
       Inquiry
     </button>
   </a>
@@ -294,8 +294,8 @@
 
   <!-- Button (start) -->
   <div class="flex justify-center">
-    <button class="bg-brand px-5 py-5 text-white w-6/12 lg:w-4/12 mx-auto mt-10 mb-20 font-roboto font-size-24" style="border-radius:10px;">
-      <a href style="color:white!important;">Check hospitals</a>
+    <button class="bg-brand px-5 py-5 text-white w-6/12 lg:w-4/12 mx-auto mt-10 mb-20 font-roboto font-size-24 hover:bg-blue-500" style="border-radius:10px;">
+      <a href style="color:white!important;" class="">Check hospitals</a>
     </button>
   </div>
 	<!-- Button (end) -->
@@ -344,7 +344,7 @@
   <!-- Button (start) -->
   <div class="flex justify-center mt-24">
 	<!-- <button class="bg-brand px-5 py-5 text-white mx-auto mt-10" style="border-radius:10px; font-size:18px"> -->
-	<button class="bg-brand px-5 py-5 text-white w-9/12 lg:w-6/12 mx-auto mt-10 mb-20 font-roboto font-size-24" style="border-radius:10px;">
+	<button class="bg-brand px-5 py-5 text-white w-9/12 lg:w-6/12 mx-auto mt-10 mb-20 font-roboto font-size-24 hover:bg-blue-500" style="border-radius:10px;">
       <a href="/success-cases" style="color:white">Check medical diagnoses</a>
     </button>
   </div>
@@ -395,8 +395,8 @@
     </div>
     <!-- Button (start) -->
     <div class="flex justify-center my-24 mb-32">
-      <button class="border rounded-full px-5 py-5 w-8/12 mx-auto mt-10 text-blue-500 text-3xl">
-        <a href="/about-us" class="" style="color:#2681F3:border-color:#2681F3">Himedi Story</a>
+      <button class="border rounded-full px-5 py-5 w-8/12 mx-auto mt-10 text-blue-500 text-3xl hover:bg-blue-500 hover:text-white">
+        <a href="/about-us" class="" style="color:white:border-color:#2681F3">Himedi Story</a>
       </button>
     </div>
 	  <!-- Button (end) -->

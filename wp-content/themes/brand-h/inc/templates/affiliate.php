@@ -6,8 +6,8 @@
   <div id="popup_cancel_btn2" class="h-screen h-full absolute top-0 right-0 p-4 m-4 text-3xl cursor-pointer z-40 font-bold text-white hidden" >X</div>
   
   <!--Hidden-popup better (start)  -->
-  <div id="popup" class="hidden z-40 absolute top-0" style="top:25%" >
-    <div class="py-5 px-5 mx-5 bg-white flex flex-col" style="z-index:1">  
+  <div id="popup" class="hidden z-40 absolute top-0 " style="top:25%" >
+    <div class="py-5 px-5 mx-5 bg-white flex flex-col rounded" style="z-index:1">  
       <div alt="hospital image"
                 class="bg-cover content-partners"
                 style="background-image: url(<?php bloginfo('template_directory') ?>/img/partners/01.jpg);">

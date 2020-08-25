@@ -28,7 +28,7 @@
 			foreign patients coming from overseas.</p>
 	</div>
 
-	<div class="flex flex-wrap w-full px-3 pt-10 mt-40" style="background-color: #f7f7f7;">
+	<div class="flex flex-wrap w-full px-3 pt-10 mt-40" style="background-color: #f7f7f7;" id="history">
 		<h3 class="font-bold text-center px-0 font-size-24 font-roboto leading-relaxed" style="font-size:22px">
 			History
 		</h3>

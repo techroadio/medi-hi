@@ -188,7 +188,7 @@
 						</a>
 					</div>
 
-					<a href="/about-us" class="text-black" style="color:black!important"> 
+					<a href="/about-us/#history" class="text-black" style="color:black!important"> 
 						<div class="mt-12" >
 							<div style="position:relative">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/sidebar-1.jpg" style="position:absolute;top:0px">
