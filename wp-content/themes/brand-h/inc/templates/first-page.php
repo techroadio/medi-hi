@@ -40,12 +40,12 @@
         <!-- Main slider (end) -->
     
         <!-- Content (start) -->
-        <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
-            <h2 class="font-bold text-center font-size-24 font-roboto leading-relaxed " style="font-size:22px">
-				Himedi meets doctors of first-class hospitals in Korea <br class="br-hidden">on behalf of you.
+        <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2 px-12">
+            <h2 class="title-1" >
+				      Himedi meets doctors of <br class="lg:hidden"><b>first-class</b> hospitals in Korea <br class="br-hidden">on behalf of you.
             </h2>
-            <p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
-				We lead you to world-best medical staff<br class="br-hidden"> and best remedies.
+            <p class="pt-4 sub-title-1" >
+				      We lead you to world-best<br class="lg:hidden"> medical staff and best remedies.
             </p>
         </div>
         <!-- Content (end) -->
@@ -62,10 +62,10 @@
 	    <img src="<?php bloginfo('template_directory') ?>/img/section1-1.jpg" alt="">
 	  </div>
 	  <div class="lg:mt-10 mt-10 lg:mb-24 mb-0 lg:p-10 p-2">
-	  	<h2 class="font-bold font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+	  	<h2 class="font-bold font-size-24 ont-noto-regular leading-relaxed " style="font-size:22px">
 				Just send us your medical records. You do not need to come to Korea.
             </h2>
-            <p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
+            <p class="pt-4 px-8 text-gray-700 text-center font-size-24 ont-noto-regular leading-none" style="font-size:20px">
 				Send your relevant medical records such as treatment history, image, etc.
             </p>
         </div>
@@ -81,7 +81,7 @@
 	<!-- Chart (start) -->
 	<div class="chartsWrap bg-gray-100 text-justify">
 		<div class="chart0 active lg:p-10 p-0">
-			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
+			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 ont-noto-regular leading-none" style="font-size:20px">
 				The survival rate of patients with one of the 5 major cancers compared <br class="lg:hidden block">to that in the U.S.
 			</p>
 			<img class="mx-auto w-full pl-4 pr-8" src="<?php bloginfo('template_directory') ?>/img/chart1.png" alt="">
@@ -94,7 +94,7 @@
 			</div>
 		</div>
 		<div class="chart1">
-			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
+			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 ont-noto-regular leading-none" style="font-size:20px">
 				No. of hospitals per a thousand people among OECD countries
 			</p>
 			<img class="mx-auto w-full pt-5 pr-0 pl-4" src="<?php bloginfo('template_directory') ?>/img/chart2.svg" alt="">
@@ -115,7 +115,7 @@
 			</div>
 		</div>
 		<div class="chart2">
-			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
+			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 ont-noto-regular leading-none" style="font-size:20px">
 				Medical expenses for serious illnesses in Germany VS Korea
 			</p>
 			<img class="mx-auto w-full mt-10" src="<?php bloginfo('template_directory') ?>/img/chart3.svg" alt="">
@@ -136,10 +136,10 @@
 	<!-- Chart Trigger (end) -->
 
 	<!-- Chart Text (start) -->
-	<h2 class="font-bold text-left px-6 font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+	<h2 class="font-bold text-left px-6 font-size-24 ont-noto-regular leading-relaxed " style="font-size:22px">
 		Korea’s medical service boasts a world-class level.
 	</h2>
-	<p class="pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
+	<p class="pt-4 px-8 text-gray-700 text-left font-size-24 ont-noto-regular leading-none" style="font-size:20px">
 		Every aspect of it—including technology, skills, infrastructures, <br class="lg:hidden block">and prices—is all highly credible.
 	</p>
 	<!-- Chart Text (end) -->
@@ -156,11 +156,11 @@
 	<div class="relative">
 		<div class="bg-black w-full h-full absolute inset-0 opacity-25"></div>
 		<img src="<?php bloginfo('template_directory') ?>/img/endCont.jpg">
-		<p class="absolute inset-0 h-full text-white font-roboto text-5xl px-5 contnet-addtional">
+		<p class="absolute inset-0 h-full text-white ont-noto-regular text-5xl px-5 contnet-addtional">
 			In addition, <b class="font-extrabold">Himedi</b> has cared for <b class="font-extrabold">4,239</b> patients while addressing <b class="font-extrabold">10,290</b> inquiries in consultation with Korea’s best medical staff.
 		</p>
 	</div>
-	<p class="lg:pt-24 pt-10 font-size-24 font-roboto leading-none">
+	<p class="lg:pt-24 pt-10 font-size-24 ont-noto-regular leading-none">
 		You can reserve six world-class hospitals and other great hospitals.<br>(World\'s best 100 hospitals, April 2020 Newsweek)
 	</p>
 	<!-- Content (end) -->
@@ -195,10 +195,10 @@
 <!-- Section 3-1 (start) -->
 <section class="text-center mt-40 pt-20" style="background-color:#EAF3FE">
 	<!-- Content (start) -->
-	<h2 class="font-bold text-center px-6 font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+	<h2 class="font-bold text-center px-6 font-size-24 ont-noto-regular leading-relaxed " style="font-size:22px">
 		Get a personalized consultation suitable to you
 	</h2>	
-	<button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10 font-roboto font-size-24" style="border-radius:30px;">
+	<button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10 ont-noto-regular font-size-24" style="border-radius:30px;">
 		01
 	</button>
 	<div class="flex px-8">
@@ -206,7 +206,7 @@
 		<img src="<?php bloginfo('template_directory') ?>/img/hospital-user-light.svg" >
 		</div>
     <div class="mb-5">
-      <div class="text-white mb-5 font-bold text-center px-3 font-size-24 font-roboto leading-none">
+      <div class="text-white mb-5 font-bold text-center px-3 font-size-24 ont-noto-regular leading-none">
 		  Consulting directly with a doctor on behalf of you
 		</div>
       <div class="text-xl leading-none" style="">
@@ -215,7 +215,7 @@
     </div>
 	</div>
 
-	<button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10 font-roboto font-size-24" style="border-radius:30px;">
+	<button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10 ont-noto-regular font-size-24" style="border-radius:30px;">
 		02
 	</button>
 	<div class="flex px-8">
@@ -223,7 +223,7 @@
 		<img src="<?php bloginfo('template_directory') ?>/img/user-md-chat-light.svg" >
 		</div>
     <div class="mb-5 w-full">
-	<div class="text-white mb-5 font-bold text-center px-3 font-size-24 font-roboto leading-none">
+	<div class="text-white mb-5 font-bold text-center px-3 font-size-24 ont-noto-regular leading-none">
 		  Telemedicine consultation
 		</div>
 		<div class="text-xl leading-none" style="">
@@ -232,7 +232,7 @@
     </div>
 	</div>
 
-	<button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10 font-roboto font-size-24" style="border-radius:30px;">
+	<button class="bg-brand px-3 py-3 text-white w-48 mx-auto mt-10 mb-10 ont-noto-regular font-size-24" style="border-radius:30px;">
 		03
 	</button>
 	<div class="flex px-8">
@@ -240,7 +240,7 @@
       <img src="<?php bloginfo('template_directory') ?>/img/notes-medical-light.svg" >
     </div>
     <div class="mb-5 w-full">
-		<div class="text-white mb-5 font-bold text-center px-3 font-size-24 font-roboto leading-none">
+		<div class="text-white mb-5 font-bold text-center px-3 font-size-24 ont-noto-regular leading-none">
 		  Request for the 2nd opinion
 		</div>
 		<div class="text-xl leading-none" style="">
@@ -268,16 +268,16 @@
   <div>
     <img class="mx-auto mb-24 mt-5 lg:h-24 h-24 w-24 lg:w-24" src="<?php bloginfo('template_directory') ?>/img/user-nurse-light.svg"> 
   </div>
-  <h2 class="font-bold text-center px-6 font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+  <h2 class="font-bold text-center px-6 font-size-24 ont-noto-regular leading-relaxed " style="font-size:22px">
     Himedi recommends remedies and best doctors for you.
   </div>
-  <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed" style="color:#2681F3">
+  <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 ont-noto-regular leading-relaxed" style="color:#2681F3">
     STEP 01
   </div>
-  <div class="text-bold font-bold text-left px-6 font-size-24 font-roboto leading-none">
+  <div class="text-bold font-bold text-left px-6 font-size-24 ont-noto-regular leading-none">
     Let Himedi know your disease name and questions you want to ask doctors. 
   </div>
-  <p class="px-6 lg:pt-24 pt-0 font-roboto leading-none mt-3" style="font-size:20px">
+  <p class="px-6 lg:pt-24 pt-0 ont-noto-regular leading-none mt-3" style="font-size:20px">
     Based on the information you share and consultations, Himedi will recommend best-suitable remedies and doctors for you.
   </div>
   <!-- <div style="height:500px"> #safari issue
@@ -294,15 +294,15 @@
 
   <!-- Button (start) -->
   <div class="flex justify-center">
-    <button class="bg-brand px-5 py-5 text-white w-6/12 lg:w-4/12 mx-auto mt-10 mb-20 font-roboto font-size-24 hover:bg-blue-500" style="border-radius:10px;">
+    <button class="bg-brand px-5 py-5 text-white w-6/12 lg:w-4/12 mx-auto mt-10 mb-20 ont-noto-regular font-size-24 hover:bg-blue-500" style="border-radius:10px;">
       <a href style="color:white!important;" class="">Check hospitals</a>
     </button>
   </div>
 	<!-- Button (end) -->
-	<div class="text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed" style="color:#2681F3">
+	<div class="text-bold mt-20 font-bold text-left px-6 font-size-24 ont-noto-regular leading-relaxed" style="color:#2681F3">
     STEP 02
   </div>
-  <div class="text-bold font-bold text-left px-6 font-size-24 font-roboto leading-none">
+  <div class="text-bold font-bold text-left px-6 font-size-24 ont-noto-regular leading-none">
   If you would like to receive the second opinion or deputy consultation from the recommended doctors, please share more detailed medical records.
   </div>
   <!-- Main slider (start) -->
@@ -332,10 +332,10 @@
       <div class="swiper-scrollbar"></div>
   </div>
   <!-- Main slider (end) -->
-  <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed" style="color:#2681F3">
+  <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 ont-noto-regular leading-relaxed" style="color:#2681F3">
     STEP 03
   </div>
-  <div class="text-bold font-bold text-left px-6 font-size-24 font-roboto leading-none">
+  <div class="text-bold font-bold text-left px-6 font-size-24 ont-noto-regular leading-none">
     Based on the shared materials, Himedi proposes a plan for treatment available in Korea.
   </div>
   <div class="mt-12">
@@ -344,20 +344,20 @@
   <!-- Button (start) -->
   <div class="flex justify-center mt-24">
 	<!-- <button class="bg-brand px-5 py-5 text-white mx-auto mt-10" style="border-radius:10px; font-size:18px"> -->
-	<button class="bg-brand px-5 py-5 text-white w-9/12 lg:w-6/12 mx-auto mt-10 mb-20 font-roboto font-size-24 hover:bg-blue-500" style="border-radius:10px;">
+	<button class="bg-brand px-5 py-5 text-white w-9/12 lg:w-6/12 mx-auto mt-10 mb-20 ont-noto-regular font-size-24 hover:bg-blue-500" style="border-radius:10px;">
       <a href="/success-cases" style="color:white">Check medical diagnoses</a>
     </button>
   </div>
 	  <!-- Button (end) -->
   </div>
   <div class="mt-56">
-    <h2 class="px-8 font-bold text-left font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+    <h2 class="px-8 font-bold text-left font-size-24 ont-noto-regular leading-relaxed " style="font-size:22px">
       Feel free to ask us anything. <br>We will reply<br> kindly and promptly.
     </div>
-    <p class="pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
+    <p class="pt-4 px-8 text-gray-700 text-left font-size-24 ont-noto-regular leading-none" style="font-size:20px">
       Do you have difficulty in inquiring? <br>We give sincere answers to any question for patients’ recovery.
     </div>
-    <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 font-roboto leading-relaxed" style="color:#2681F3">
+    <div class="text-bold mt-20 font-bold text-left px-6 font-size-24 ont-noto-regular leading-relaxed" style="color:#2681F3">
       Start consultation
     </div>
     <div>
@@ -387,10 +387,10 @@
 	  <!-- Button (end) -->
   </div>
   <div class="mt-56">
-  <h2 class="px-8 font-bold text-left font-size-24 font-roboto leading-relaxed " style="font-size:22px">
+  <h2 class="px-8 font-bold text-left font-size-24 ont-noto-regular leading-relaxed " style="font-size:22px">
       Himedi solves problems that patients and their caregivers face.
     </div>
-    <p class="pt-4 px-8 text-gray-700 text-left font-size-24 font-roboto leading-none" style="font-size:20px">
+    <p class="pt-4 px-8 text-gray-700 text-left font-size-24 ont-noto-regular leading-none" style="font-size:20px">
       Himedi dreams of a heartwarming world where everyone enjoys a healthy life. Going beyond the step of medical tourism, Himedi, as a complex medical service platform, presents a new direction for medical service.
     </div>
     <!-- Button (start) -->

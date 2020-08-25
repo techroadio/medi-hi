@@ -1217,7 +1217,42 @@ h2.sunset-widget-title {
 .text-b80{
 	color:rgba(0,0,0,.8)!important
 }
+.text-b50 {
+  color: rgba(0,0,0,.5)!important;
+}
+.font-noto-regular {
+  font-family: Noto Sans Regular, sans-serif!important;
+}
+.noto-light {
+  font-family: Noto Sans Light, sans-serif!important;
+}
 
+.h-line-1-7 {
+  line-height: 1.7;
+}
+.title-1{
+  text-align: left!important;
+  word-break: keep-all;
+  font-size:25px!important;
+  line-height:1.4!important;
+  font-family: Noto Sans Regular, sans-serif!important;
+}
+.title-1 b{
+  color: rgba(0,0,0,.8)!important;
+}
+.sub-title-1{
+  font-size:20px;
+  text-align: left!important;
+  font-family: Noto Sans Light, sans-serif!important;
+  line-height: 1.2;
+  color: rgba(0,0,0,.5)!important;
+}
+.sub-title-2{
+  text-align: left!important;
+  font-family: Noto Sans Light, sans-serif!important;
+  line-height: 1.7;
+  color: rgba(0,0,0,.5)!important;
+}
 
 @media only screen and (max-width: 600px) { /* mobile */
   .object-fit-slide img {
