@@ -410,7 +410,7 @@
     <!-- Button (start) -->
     <div class="flex justify-center my-24 mb-32">
       <a href="/about-us">
-        <button class="border button-2 px-8 py-5 mx-auto mt-10 hover:bg-blue-500 hover:text-white">
+        <button class="border button-2 px-12 py-5 mx-auto mt-10 hover:bg-blue-500 hover:text-white">
           Himedi Story
         </button>
       </a>
@@ -423,5 +423,5 @@
 	<!--.entry-content-->
 
 
-
+ 
 </article>
