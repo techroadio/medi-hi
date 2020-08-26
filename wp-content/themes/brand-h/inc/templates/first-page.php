@@ -77,8 +77,17 @@
 		
 	<!-- Section1-1 (end) -->
     <!-- Section 2 (start) -->
+
 <section class="mt-20 w-full text-center">
+  <!-- Chart By Harsh -->
+  
+</section>
+
+<!-- Old Chart -->
+<section class="mt-20 w-full text-center">
+
 	<!-- Chart (start) -->
+  
 	<div class="chartsWrap bg-gray-100 text-justify">
 		<div class="chart0 active lg:p-10 p-0">
 			<p class="pt-4 px-8 text-gray-700 text-center font-size-24 font-roboto leading-none" style="font-size:20px">
