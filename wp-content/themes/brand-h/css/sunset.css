@@ -1217,7 +1217,136 @@ h2.sunset-widget-title {
 .text-b80{
 	color:rgba(0,0,0,.8)!important
 }
+.text-b50 {
+  color: rgba(0,0,0,.5)!important;
+}
+.font-noto-regular {
+  font-family: Noto Sans Regular, sans-serif!important;
+}
+.noto-light {
+  font-family: Noto Sans Light, sans-serif!important;
+}
 
+.h-line-1-7 {
+  line-height: 1.7;
+}
+.title-1{
+  text-align: left!important;
+  word-break: keep-all;
+  font-size:25px!important;
+  line-height:1.3!important;
+  font-family: Noto Sans Regular, sans-serif!important;
+}
+
+.title-1 b{
+  color: rgba(0,0,0,.8)!important;
+}
+.title-1-w-c {
+  text-align: center!important;
+  word-break: keep-all;
+  font-size:25px!important;
+  line-height:1.3!important;
+  font-family: Noto Sans Regular, sans-serif!important;
+  color:white;
+}
+.title-1-w b{
+  font-family: Noto Sans Bold, sans-serif!important;
+}
+
+
+.sub-title-1{
+  font-size:20px;
+  text-align: left!important;
+  font-family: Noto Sans Light, sans-serif!important;
+  line-height: 1.2;
+  color: rgba(0,0,0,.5)!important;
+  word-break: break-all;
+}
+.sub-title-1-c {
+  font-size:20px;
+  text-align: center!important;
+  font-family: Noto Sans Light, sans-serif!important;
+  line-height: 1.2;
+  color: rgba(0,0,0,.5)!important;
+  word-break: break-all;
+}
+
+.sub-title-2{
+  text-align: left!important;
+  font-family: Noto Sans Light, sans-serif!important;
+  line-height: 1.7;
+  color: rgba(0,0,0,.5)!important;
+}
+.chart-1{
+  text-align: left!important;
+  font-size:24px!important;
+  font-family: Noto Sans Regular, sans-serif!important;
+  line-height: 1.0;
+}
+.chart-1 p{
+  text-align: left!important;
+  font-size:20px!important;
+  font-family: Noto Sans Regular, sans-serif!important;
+  line-height: 1.0;
+  height:80px;
+}
+
+.title-3{
+  font-size:24px;
+  color: rgba(0,0,0,.8)!important;
+  font-family: Noto Sans Regular, sans-serif!important;
+  text-align: center!important;
+}
+
+.sub-title-3{
+  font-size:22px;
+  color: rgba(0,0,0,.8)!important;
+  font-family: Noto Sans Light, sans-serif!important;
+  line-height: 1.2;
+}
+.sub-title-3 svg{
+  font-size:22px;
+  color: rgba(0,0,0,.8)!important;
+  height:35px
+}
+.button-1 {
+  background-color: #2681F3!important;
+  color:white;
+  font-size:20px;
+  border-radius:10px; 
+  font-size:18px;
+}
+
+.title-4{
+  font-size:20px;
+  font-family: Noto Sans Bold, sans-serif!important;
+  text-align: left!important;
+  color:#2681F3;
+}
+.title-5{
+  font-size:20px;
+  font-family: Noto Sans Bold, sans-serif!important;
+  text-align: left!important;
+  color: rgba(0,0,0,.8)!important;
+  line-height: 1.3;
+}
+.sub-title-5{
+  font-size:14px;
+  text-align: left!important;
+  font-family: Noto Sans Light, sans-serif!important;
+  line-height: 1.2;
+  color: rgba(0,0,0,.5)!important;
+}
+.button-2 {
+  background-color: #ffffff!important;
+  color:#2681F3;
+  font-size:20px;
+  border-radius:9999px; 
+  font-size:18px;
+  border-color:#2681F3
+}
+
+ 
 
 @media only screen and (max-width: 600px) { /* mobile */
   .object-fit-slide img {
