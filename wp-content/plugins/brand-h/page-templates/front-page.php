@@ -88,28 +88,102 @@ width: 300px;
 
 /* end slider */
 /* begin Graph */
-[x-cloak] {
-      display: none;
-    }
+.section3{
+  margin: 0;
+  padding: 0;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background: #333;
+}
 
-    .line {
-      background: repeating-linear-gradient(
-        to bottom,
-        #eee,
-        #eee 1px,
-        #fff 1px,
-        #fff 8%
-      );
-    }
-    .tick {
-      background: repeating-linear-gradient(
-        to right,
-        #eee,
-        #eee 1px,
-        #fff 1px,
-        #fff 5%
-      );
-    }
+.chart{
+  width: 600px;
+  height: 300px;
+  display: block;
+}
+
+.numbers{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.numbers li{
+  list-style: none;
+  height: 150px;
+  position: relative;
+  bottom: 145px;
+}
+
+.numbers span{
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.bars{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  background: #555;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 0 10px 0 #555;
+  border-radius: 5px;
+}
+
+.bars li{
+  display: table-cell;
+  width: 100px;
+  height: 300px;
+  position: relative;
+}
+
+.bars span{
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+  text-align: center;
+}
+
+.bars .bar{
+  display: block;
+  background: #17C0EB;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 25px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(23, 192, 235, 0.5);
+  transition: 0.5s;
+  transition-property: background, box-shadow;
+}
+
+.bars .bar:hover{
+  background: #55EFC4;
+  box-shadow: 0 0 10px 0 rgba(85, 239, 196, 0.5);
+  cursor: pointer;
+}
+
+.bars .bar:before{
+  color: #fff;
+  content: attr(data-percentage) '%';
+  position: relative;
+  bottom: 20px;
+}
+                           
 /* end Graph */
 .navbar-nav {
     overflow-y: auto;
@@ -192,77 +266,22 @@ width: 300px;
 		<div class="grid grid-cols-1 lg:grid-cols-1 section3">
 		  
 		  <!-- begin Graph -->
-		  <div x-data="app()" x-cloak class="px-4">
-    <div class="max-w-lg mx-auto py-10">
-      <div class="shadow p-6 rounded-lg bg-white">
-        <div class="md:flex md:justify-between md:items-center">
-          <div>
-            <h2 class="text-xl text-gray-800 font-bold leading-tight">Product Sales</h2>
-            <p class="mb-2 text-gray-600 text-sm">Monthly Average</p>
-          </div>
-
-          <!-- Legends -->
-          <div class="mb-4">
-            <div class="flex items-center">
-              <div class="w-2 h-2 bg-blue-600 mr-2 rounded-full"></div>
-              <div class="text-sm text-gray-700">Sales</div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="line my-8 relative">
-          <!-- Tooltip -->
-          <template x-if="tooltipOpen == true">
-            <div x-ref="tooltipContainer" class="p-0 m-0 z-10 shadow-lg rounded-lg absolute h-auto block"
-                 :style="`bottom: ${tooltipY}px; left: ${tooltipX}px`"
-                 >
-              <div class="shadow-xs rounded-lg bg-white p-2">
-                <div class="flex items-center justify-between text-sm">
-                  <div>Sales:</div>
-                  <div class="font-bold ml-2">
-                    <span x-html="tooltipContent"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </template>
-
-          <!-- Bar Chart -->
-          <div class="flex -mx-2 items-end mb-2">
-            <template x-for="data in chartData">
-
-              <div class="px-2 w-1/6">
-                <div :style="`height: ${data}px`" 
-                     class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
-                     @mouseenter="showTooltip($event); tooltipOpen = true" 
-                     @mouseleave="hideTooltip($event)"
-                     >
-                  <div x-text="data" class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm"></div>
-                </div>
-              </div>
-
-            </template>
-          </div>
-
-          <!-- Labels -->
-          <div class="border-t border-gray-400 mx-auto" :style="`height: 1px; width: ${ 100 - 1/chartData.length*100 + 3}%`"></div>
-          <div class="flex -mx-2 items-end">
-            <template x-for="data in labels">
-              <div class="px-2 w-1/6">
-                <div class="bg-red-600 relative">
-                  <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto" style="width: 1px"></div>
-                  <div x-text="data" class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm"></div>
-                </div>
-              </div>
-            </template>	
-          </div>
-
-        </div>
-      </div>
+	<!--chart start-->
+    <div class="chart">
+      <ul class="numbers">
+        <li><span>100%</span></li>
+        <li><span>50%</span></li>
+        <li><span>0%</span></li>
+      </ul>
+      <ul class="bars">
+        <li><div class="bar" data-percentage="50"></div><span>Option 01</span></li>
+        <li><div class="bar" data-percentage="30"></div><span>Option 02</span></li>
+        <li><div class="bar" data-percentage="60"></div><span>Option 03</span></li>
+        <li><div class="bar" data-percentage="100"></div><span>Option 04</span></li>
+        <li><div class="bar" data-percentage="80"></div><span>Option 05</span></li>
+      </ul>
     </div>
-  </div>
-
+    <!--chart end-->
 		  <!-- end Graph   -->
 
 		</div>
@@ -315,30 +334,15 @@ $(document).ready(function(){
           })
     });
 </script>
-<script>
-    function app() {
-      return {
-        chartData: [112, 10, 225, 134, 101, 80, 50, 100, 200],
-        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
-
-        tooltipContent: '',
-        tooltipOpen: false,
-        tooltipX: 0,
-        tooltipY: 0,
-        showTooltip(e) {
-          console.log(e);
-          this.tooltipContent = e.target.textContent
-          this.tooltipX = e.target.offsetLeft - e.target.clientWidth;
-          this.tooltipY = e.target.clientHeight + e.target.clientWidth;
-        },
-        hideTooltip(e) {
-          this.tooltipContent = '';
-          this.tooltipOpen = false;
-          this.tooltipX = 0;
-          this.tooltipY = 0;
-        }
-      }
-    }
-  </script>
+ <script type="text/javascript">
+    $(function(){
+      $('.bars li .bar').each(function(key, bar){
+        var percentage = $(this).data('percentage');
+        $(this).animate({
+          'height' : percentage + '%'
+        },1000);
+      });
+    });
+    </script>
 <?php
 get_footer();?>
